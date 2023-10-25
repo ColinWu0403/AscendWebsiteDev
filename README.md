@@ -1,2 +1,2 @@
 # AscendWebsiteDev
-Source code for Ascend Website
+Source code for Ascend Website. Made with React and TypeScript
