@@ -1,5 +1,6 @@
 import About from "./About";
 import Navbar from "./Navbar";
-import Carousel from "./Carousel";
+import MyCarousel from "./MyCarousel";
+import Footer from "./Footer";
 
-export { About, Navbar, Carousel };
+export { About, Navbar, MyCarousel, Footer };
