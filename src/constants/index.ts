@@ -2,20 +2,24 @@ import { logo, menu, close, react } from "../assets";
 
 export const navLinks = [
   {
-    id: "home",
-    title: "Home",
+    id: "about",
+    title: "About",
+    link: "/about/",
   },
   {
     id: "events",
     title: "Events",
+    link: "/events",
   },
   {
     id: "points",
     title: "Points System",
+    link: "/points",
   },
   {
     id: "team",
     title: "Our Team",
+    link: "/team",
   },
 ];
 

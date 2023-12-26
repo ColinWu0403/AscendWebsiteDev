@@ -1,17 +1,20 @@
-import { BrowserRouter } from "react-router-dom";
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
-
-import { About, Navbar, Carousel } from "./components";
+import { HomePage, EventsPage, TeamPage, PointsPage } from "./pages";
 
 function App() {
   return (
     <BrowserRouter>
-      <div className="relative z-0">
-        <Navbar />
-        <About />
-        {/* <Carousel /> */}
-      </div>
+      <Routes>
+        <Route index element={<HomePage />}></Route>
+        <Route path="/home" element={<HomePage />}></Route>
+        <Route path="/about" element={<HomePage />}></Route>
+        <Route path="/events" element={<EventsPage />}></Route>
+        <Route path="/points" element={<PointsPage />}></Route>
+        <Route path="/team" element={<TeamPage />}></Route>
+
+        <Route path="*" element={<HomePage />}></Route>
+      </Routes>
     </BrowserRouter>
   );
 }

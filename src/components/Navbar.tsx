@@ -11,9 +11,10 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${styles.paddingX} w-full flex item-center py-5 fixed top-0 z-20 bg-primary`}
+      className={`${styles.paddingX} w-full flex item-center py-5 fixed top-0 z-20 bg-primary pl-5 pr-5`}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
+        {/* Logo */}
         <Link
           to="/"
           className="flex items-center gap-2"
@@ -28,19 +29,28 @@ const Navbar = () => {
             <span className="sm:block hidden">Purdue</span>
           </p>
         </Link>
+
+        {/* Right Hand Navbar */}
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((link) => (
             <li
               key={link.id}
               className={`${
                 active === link.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
+              } hover:text-white text-[18px]  cursor-pointer`}
               onClick={() => setActive(link.title)}
             >
-              <a href={`#${link.id}`}>{link.title}</a>
+              <a
+                className="text-white hover:text-orange-500 font-medium"
+                href={`${link.id}`}
+              >
+                {link.title}
+              </a>
             </li>
           ))}
         </ul>
+
+        {/* Mobile Navbar Drop down menu */}
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}
@@ -66,7 +76,8 @@ const Navbar = () => {
                     setActive(link.title);
                   }}
                 >
-                  <a href={`#${link.id}`}>{link.title}</a>
+                  {/* <a href={`/${link.id}`}>{link.title}</a> */}
+                  <a href={`${link.link}`}>{link.title}</a>
                 </li>
               ))}
             </ul>

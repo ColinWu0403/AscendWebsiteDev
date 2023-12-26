@@ -1,17 +1,17 @@
-import React from "react";
-import Navbar from "../components/Navbar";
+import { About, Navbar, Footer, MyCarousel } from "../components";
 
-const HomePage: React.FC = () => {
+const HomePage = () => {
   return (
-    <div>
-      <Navbar />
+    <div className="absolute z-0">
       <div>
-        <h1>Welcome to Ascend Website</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-          euismod nisi, vel facilisis velit. Sed euismod euismod nisi, vel
-          facilisis velit.
-        </p>
+        <div className="mb-8">
+          <Navbar />
+        </div>
+        <About />
+        <MyCarousel />
+      </div>
+      <div className="relative z-0">
+        <Footer />
       </div>
     </div>
   );
