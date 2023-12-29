@@ -12,6 +12,7 @@ export default {
         primary: "#171411",
         secondary: "#aaa6c3", //f18112
         tertiary: "#111030", // 151030
+        orange: "ff6c22",
         "black-100": "#100d25",
         "black-200": "#090325",
         "white-100": "#f3f3f3",
@@ -24,6 +25,18 @@ export default {
       },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
+      },
+      fontSize: {
+        sm: "0.8rem",
+        base: "1rem",
+        xl: "1.25rem",
+        "2xl": "1.5rem",
+        "3xl": "2rem",
+        "4xl": "2.5rem",
+        "5xl": "3rem",
+        "6xl": "3.5rem",
+        "7xl": "4rem",
+        "8xl": "4.5rem",
       },
     },
   },

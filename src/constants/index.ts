@@ -56,3 +56,11 @@ export const images = [
     icon: react,
   },
 ];
+
+export const slides = [
+  { url: "../../image-1.jpg", title: "beach" },
+  { url: "../../image-2.jpg", title: "boat" },
+  { url: "../../image-3.jpg", title: "forest" },
+  { url: "../../image-4.jpg", title: "city" },
+  { url: "../../image-5.jpg", title: "italy" },
+];
