@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    "./src/**/*.{html,js,tsx}",
+    "./src/**/*.{html,js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
   ],
@@ -9,10 +9,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#171411",
+        primary: "#e48c17",
         secondary: "#aaa6c3", //f18112
         tertiary: "#111030", // 151030
-        orange: "ff6c22",
+        orange: "#ff6c22",
         "black-100": "#100d25",
         "black-200": "#090325",
         "white-100": "#f3f3f3",
@@ -22,9 +22,6 @@ export default {
       },
       screens: {
         xs: "450px",
-      },
-      backgroundImage: {
-        "hero-pattern": "url('/src/assets/herobg.png')",
       },
       fontSize: {
         sm: "0.8rem",

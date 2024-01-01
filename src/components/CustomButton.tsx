@@ -8,7 +8,7 @@ const CustomButton = () => {
 
   // original button styles
   const buttonStyles =
-    "font-semibold w-40 h-12 bg-[#f0a224] text-white rounded-none border-none flex items-center justify-center";
+    "font-semibold w-40 h-12 bg-primary text-white rounded-none border-none flex items-center justify-center";
 
   // Transition styles
   const transitionStyles = "transition-all duration-300 ease-in";

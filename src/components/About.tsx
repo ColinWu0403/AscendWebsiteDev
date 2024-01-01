@@ -1,13 +1,26 @@
 import React from "react";
 import { CustomButton } from "../components";
+import { cardData } from "../constants";
 
 const About = () => {
   return (
-    <div className="bg-[#f2f2f2] py-16 text-[#686768]">
+    <div className="">
+      <WhoWeAre />
+      <CoreValues />
+    </div>
+  );
+};
+
+const WhoWeAre = () => {
+  return (
+    <div className="bg-[#e7e7e7] py-16 text-[#686768]">
       <div className="container mx-auto">
-        <h1 className="text-[#f09400] text-4xl font-medium text-center mb-4 border-b-2 border-[#f09400] pb-1 ">
-          Who We Are
-        </h1>
+        <div className="text-center">
+          <h1 className="text-[#f09400] text-4xl font-medium mb-4 relative inline-block">
+            Who We Are
+            <span className="block w-12 h-1 bg-[#f09400] mx-auto mt-2 font-bold mb-4"></span>
+          </h1>
+        </div>
 
         <p className="text-center mx-auto max-w-4xl">
           Ascend is the largest Pan-Asian business professional membership
@@ -29,6 +42,64 @@ const About = () => {
           <CustomButton />
         </div>
       </div>
+    </div>
+  );
+};
+
+const CoreValues = () => {
+  return (
+    <div className="bg-[#ffffff] py-16 text-[#686768]">
+      <div className="container mx-auto">
+        <div className="text-center">
+          <h1 className="text-[#f09400] text-4xl font-medium mb-4 relative inline-block">
+            Our Core Values
+            <span className="block w-12 h-1 bg-[#f09400] mx-auto mt-2 font-bold mb-4"></span>
+          </h1>
+        </div>
+
+        <div className="justify-center flex">
+          {/* Map through cardData and render each CoreValuesCard */}
+          {cardData.map((data, index) => (
+            <CoreValuesCard key={index} {...data} />
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const CoreValuesCard = ({
+  image,
+  headtext,
+  bodytext,
+}: {
+  image: string;
+  headtext: string;
+  bodytext: string;
+}) => {
+  return (
+    <div className="bg-[#fff8ee] p-6 rounded-lg shadow-md w-[300px] mx-2">
+      {/* Image */}
+      <div className="flex justify-center mt-4 mb-4">
+        <img
+          src={image}
+          alt="Card Image"
+          className="justify-center mb-4 w-16 h-16 object-cover"
+        />
+      </div>
+
+      {/* Heading Text */}
+      <h2 className="text-center text-xl font-bold mb-2">{headtext}</h2>
+
+      {/* Body Text */}
+      <p className="text-center h-40 overflow-hidden">
+        {bodytext.split("\n").map((item, index) => (
+          <React.Fragment key={index}>
+            {item}
+            <br />
+          </React.Fragment>
+        ))}
+      </p>
     </div>
   );
 };
