@@ -1,3 +1,4 @@
+import React from "react";
 import { About, Navbar, Footer, ImageSlider } from "../components";
 import { slides } from "../constants/index";
 
@@ -7,15 +8,12 @@ const HomePage = () => {
       <div className="mb-8">
         <Navbar />
       </div>
-      <div className="absolute w-full top-20">
-        {/* <div className="w-[1000px] h-[280px]"> */}
-        {/* <div className="w-full h-full"> */}
+      <div className="min-h-screen flex flex-col">
         {/* <ImageSlider slides={slides} /> */}
-        {/* </div> */}
-        {/* </div> */}
         <About />
+        {/* Additional components go here */}
       </div>
-      <div className="relative z-0">
+      <div className="">
         <Footer />
       </div>
     </div>
