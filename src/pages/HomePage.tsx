@@ -1,5 +1,5 @@
 import React from "react";
-import { About, Navbar, Footer, ImageSlider } from "../components";
+import { About, Navbar, Footer, ImageSlider, Upcoming } from "../components";
 import { slides } from "../constants/index";
 
 const HomePage = () => {
@@ -11,7 +11,7 @@ const HomePage = () => {
       <div className="min-h-screen flex flex-col">
         {/* <ImageSlider slides={slides} /> */}
         <About />
-        {/* Additional components go here */}
+        <Upcoming />
       </div>
       <div className="">
         <Footer />

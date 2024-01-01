@@ -4,5 +4,7 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import ImageSlider from "./ImageSlider";
 import CustomButton from "./CustomButton";
+import Upcoming from "./Upcoming";
+import Team from "./Team";
 
-export { About, Navbar, Footer, ImageSlider, CustomButton };
+export { About, Navbar, Footer, ImageSlider, CustomButton, Upcoming, Team };
