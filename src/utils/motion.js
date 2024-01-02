@@ -1,4 +1,17 @@
-export const textVariant = (delay: number) => {
+export const fadeInFromTopVariants = {
+  hidden: { opacity: 0, y: -50 }, // initial state (hidden)
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      type: "spring",
+      duration: 1.25,
+      delay: 0.1,
+    },
+  }, // final state (visible)
+};
+
+export const textVariant = (delay) => {
   return {
     hidden: {
       y: -50,
@@ -16,12 +29,7 @@ export const textVariant = (delay: number) => {
   };
 };
 
-export const fadeIn = (
-  direction: "left" | "right" | "up" | "down",
-  type: string,
-  delay: number,
-  duration: number
-) => {
+export const fadeIn = (direction, type, delay, duration) => {
   return {
     hidden: {
       x: direction === "left" ? 100 : direction === "right" ? -100 : 0,
@@ -42,7 +50,7 @@ export const fadeIn = (
   };
 };
 
-export const zoomIn = (delay: number, duration: number) => {
+export const zoomIn = (delay, duration) => {
   return {
     hidden: {
       scale: 0,
@@ -61,12 +69,7 @@ export const zoomIn = (delay: number, duration: number) => {
   };
 };
 
-export const slideIn = (
-  direction: "left" | "right" | "up" | "down",
-  type: string,
-  delay: number,
-  duration: number
-) => {
+export const slideIn = (direction, type, delay, duration) => {
   return {
     hidden: {
       x: direction === "left" ? "-100%" : direction === "right" ? "100%" : 0,
@@ -85,10 +88,7 @@ export const slideIn = (
   };
 };
 
-export const staggerContainer = (
-  staggerChildren: number,
-  delayChildren: number
-) => {
+export const staggerContainer = (staggerChildren, delayChildren) => {
   return {
     hidden: {},
     show: {
