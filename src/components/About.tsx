@@ -42,7 +42,7 @@ const WhoWeAre = () => {
             initial="hidden"
             animate={controls}
             variants={fadeIn("down", "in", 0, 0.5)}
-            className="text-center mx-auto max-w-4xl"
+            className="text-center mx-auto max-w-4xl text-base leading-[1.5]"
           >
             Ascend is the largest Pan-Asian business professional membership
             organization in North America.
@@ -118,7 +118,7 @@ const CoreValuesCard = ({
   }, [controls]);
 
   return (
-    <div className="bg-[#fff8ee] p-6 rounded-lg shadow-md w-[300px] mx-2">
+    <div className="bg-[#fff8ee] p-6 rounded-lg shadow-md max-w-[300px] w-full mx-2">
       {/* Image */}
       <motion.div
         initial="hidden"
@@ -130,7 +130,7 @@ const CoreValuesCard = ({
         <img
           src={image}
           alt="Card Image"
-          className="justify-center mb-4 w-16 h-16 object-cover"
+          className="justify-center mb-4 md:w-16 md:h-16 w-12 h-12 object-cover"
         />
       </motion.div>
 
@@ -141,10 +141,12 @@ const CoreValuesCard = ({
         variants={fadeIn("down", "in", 0, 0.7)}
       >
         {/* Heading Text */}
-        <h2 className="text-center text-xl font-bold mb-2">{headtext}</h2>
+        <h2 className="text-center md:text-xl text-med font-bold mb-2">
+          {headtext}
+        </h2>
 
         {/* Body Text */}
-        <p className="text-center h-40 overflow-hidden">
+        <p className="text-center md:text-base leading-[1.5] text-xs md:h-40 h-55 overflow-hidden">
           {bodytext.split("\n").map((item, index) => (
             <React.Fragment key={index}>
               {item}

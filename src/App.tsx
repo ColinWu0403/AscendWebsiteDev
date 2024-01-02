@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
-import { HomePage, EventsPage, TeamPage, PointsPage } from "./pages";
+import { HomePage, EventsPage, TeamPage, PointsPage, JoinPage } from "./pages";
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
         <Route path="/events" element={<EventsPage />}></Route>
         <Route path="/points" element={<PointsPage />}></Route>
         <Route path="/team" element={<TeamPage />}></Route>
+        <Route path="/join" element={<JoinPage />}></Route>
 
         <Route path="*" element={<HomePage />}></Route>
       </Routes>
