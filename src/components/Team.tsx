@@ -46,6 +46,15 @@ const BoardCard = ({
   introduction,
   image,
   linkedIn,
+}: {
+  position: string;
+  name: string;
+  major: string;
+  hometown: string;
+  fun_fact: string;
+  introduction: string;
+  image: string;
+  linkedIn: string;
 }) => {
   return (
     <div className="bg-[#ffe1b7] p-12 flex w-full">
@@ -54,19 +63,19 @@ const BoardCard = ({
         <img
           src={image}
           alt="Team Member Image"
-          className="w-[250px] h-[250px] object-cover rounded-md mb-4"
+          className="md:w-[250px] md:h-[250px] w-[187.5px] h-[187.5px] object-cover rounded-md mb-4"
         />
 
         {/* Text content */}
         <div className="ml-8">
           {/* Position */}
-          <h2 className="text-3xl font-bold mb-2">{position}</h2>
+          <h2 className="md:text-3xl text-2xl font-bold mb-2">{position}</h2>
 
           {/* Name */}
-          <p className="text-xl font-medium mb-4">{name}</p>
+          <p className="md:text-xl text-lg font-medium mb-4">{name}</p>
 
           {/* Major, Hometown, Fun Fact */}
-          <div className="mb-4">
+          <div className="mb-4 md:text-base text-med">
             <p className="mb-1">
               <span className="font-bold">Major:</span> {major}
             </p>
@@ -79,7 +88,7 @@ const BoardCard = ({
           </div>
 
           {/* Introduction */}
-          <p className="mb-2">{introduction}</p>
+          <p className="mb-2 md:text-med text-sm">{introduction}</p>
 
           {/* LinkedIn Link */}
           {linkedIn && (
@@ -87,7 +96,7 @@ const BoardCard = ({
               href={linkedIn}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#0077b5] hover:text-[#0e76a8] transition duration-300"
+              className="font-medium text-[#0e76a8] hover:text-[#26b9ff] transition duration-300"
             >
               LinkedIn
             </a>
@@ -107,6 +116,15 @@ const OfficerCard = ({
   introduction,
   image,
   linkedIn,
+}: {
+  committee: string;
+  name: string;
+  major: string;
+  hometown: string;
+  fun_fact: string;
+  introduction: string;
+  image: string;
+  linkedIn: string;
 }) => {
   return (
     <div className="bg-[#ffe1b7] p-12 flex w-full">
@@ -115,26 +133,34 @@ const OfficerCard = ({
         <img
           src={image}
           alt="Team Member Image"
-          className="w-[250px] h-[250px] object-cover rounded-md mb-4"
+          className="md:w-[250px] md:h-[250px] w-[187.5px] h-[187.5px] object-cover rounded-md mb-4"
         />
 
         {/* Text content */}
         <div className="ml-8">
           {/* Position */}
-          <h2 className="text-xl font-bold mb-2">{committee} Committee</h2>
+          <h2 className="md:text-3xl text-2xl font-bold mb-2">
+            {committee} Committee
+          </h2>
 
           {/* Name */}
-          <p className="font-bold mb-2">{name}</p>
+          <p className="md:text-xl text-lg font-medium mb-4">{name}</p>
 
           {/* Major, Hometown, Fun Fact */}
-          <div className="mb-2">
-            <p>Major: {major}</p>
-            <p>Hometown: {hometown}</p>
-            <p>Fun Fact: {fun_fact}</p>
+          <div className="mb-4 md:text-base text-med">
+            <p className="mb-1">
+              <span className="font-bold">Major:</span> {major}
+            </p>
+            <p className="mb-1">
+              <span className="font-bold">Hometown:</span> {hometown}
+            </p>
+            <p className="mb-1">
+              <span className="font-bold">Fun Fact:</span> {fun_fact}
+            </p>
           </div>
 
           {/* Introduction */}
-          <p className="mb-2">{introduction}</p>
+          <p className="mb-2 md:text-med text-sm">{introduction}</p>
 
           {/* LinkedIn Link */}
           {linkedIn && (
@@ -142,7 +168,7 @@ const OfficerCard = ({
               href={linkedIn}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#0077b5] hover:text-[#0e76a8] transition duration-300"
+              className="font-medium text-[#0e76a8] hover:text-[#26b9ff] transition duration-300"
             >
               LinkedIn
             </a>

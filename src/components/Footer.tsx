@@ -1,5 +1,6 @@
 import React from "react";
 import { styles } from "../styles";
+import { instagram, linkedin, email, slack } from "../assets";
 
 const Footer = () => {
   return (
@@ -16,7 +17,7 @@ const Footer = () => {
             >
               <img
                 alt="linkedIn"
-                src="linkedin.svg"
+                src={linkedin}
                 className="w-[50px] h-[50px]"
               />
             </a>
@@ -29,7 +30,7 @@ const Footer = () => {
             >
               <img
                 alt="Instagram"
-                src="instagram.svg"
+                src={instagram}
                 className="w[45px] h-[45px]"
               />
             </a>
@@ -42,7 +43,7 @@ const Footer = () => {
             >
               <img
                 alt="Mailing List"
-                src="email.svg"
+                src={email}
                 className="w-[55px] h-[55px]"
               />
             </a>
@@ -53,11 +54,11 @@ const Footer = () => {
               target="_blank"
               rel="noopener"
             >
-              <img alt="Slack" src="slack.svg" className="w-[50px] h-[50px]" />
+              <img alt="Slack" src={slack} className="w-[50px] h-[50px]" />
             </a>
           </li>
         </ul>
-        <p className="items-center justify-center flex text-[#645d47] text-base font-medium">
+        <p className="items-center justify-center flex text-[#645d47] md:text-base text-med font-medium">
           Copyright &copy; 2023 by Ascend Purdue Chapter. All rights reserved.
         </p>
       </div>

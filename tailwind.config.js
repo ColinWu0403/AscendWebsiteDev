@@ -23,10 +23,13 @@ export default {
       },
       screens: {
         xs: "450px",
+        sm: "850px",
       },
       fontSize: {
         sm: "0.8rem",
+        med: "0.9rem",
         base: "1rem",
+        lg: "1.1rem",
         xl: "1.25rem",
         "2xl": "1.5rem",
         "3xl": "2rem",

@@ -39,21 +39,23 @@ const UpcomingCard = ({
   image: string;
 }) => {
   return (
-    <div className="bg-[#ffe1b7] p-6 shadow-md flex max-w-[800px] w-[800px] mb-4">
+    <div className="bg-[#ffe1b7] p-6 shadow-md flex max-w-[800px] w-full mb-4 md:flex-row">
       {/* Left side (Text content) */}
-      <div className="flex flex-col pr-4">
+      <div className="flex flex-col pr-4 md:w-2/3">
         {/* Title */}
-        <h2 className="text-[#474747] text-3xl font-bold mb-4">
+        <h2 className="text-[#474747] font-bold mb-4 md:text-3xl text-2xl">
           {event_title}
         </h2>
 
         {/* Description */}
         <div className="mb-auto">
-          <p className="text-med mb-4 overflow-hidden h-20">{description}</p>
+          <p className="mb-4 overflow-hidden h-20 md:text-med text-sm">
+            {description}
+          </p>
         </div>
 
         {/* Date, Time, Location */}
-        <div className="text-[#727272] text-med">
+        <div className="text-[#727272] md:text-med text-sm ">
           <p>Date: {date}</p>
           <p>Time: {time}</p>
           <p>Location: {location}</p>
@@ -64,7 +66,7 @@ const UpcomingCard = ({
       <img
         src={image}
         alt="Event Image"
-        className="w-64 h-64 object-cover ml-4 rounded-sm ml-auto"
+        className="md:w-64 md:h-64 w-48 h-48 object-cover ml-4 rounded-sm ml-auto"
       />
     </div>
   );

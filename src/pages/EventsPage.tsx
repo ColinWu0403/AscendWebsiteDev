@@ -5,13 +5,11 @@ import { About, Navbar, Footer } from "../components";
 const EventsPage = () => {
   return (
     <div className="relative z-0">
-      <div>
-        <div className="">
-          <Navbar />
-        </div>
-        Events Page
+      <div className="mb-8">
+        <Navbar />
       </div>
-      <div className="relative z-0">
+      <div className="min-h-screen flex flex-col">{/* saf */}</div>
+      <div className="">
         <Footer />
       </div>
     </div>

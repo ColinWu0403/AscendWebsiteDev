@@ -21,6 +21,11 @@ export const navLinks = [
     title: "Our Team",
     link: "/team",
   },
+  {
+    id: "join",
+    title: "Join Ascend",
+    link: "/join",
+  },
 ];
 
 export const colors = [
