@@ -13,6 +13,7 @@ export default {
         secondary: "#aaa6c3", //f18112
         tertiary: "#111030", // 151030
         orange: "#ff6c22",
+        brownish: "#67481c",
         "black-100": "#100d25",
         "black-200": "#090325",
         "white-100": "#f3f3f3",

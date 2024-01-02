@@ -41,7 +41,7 @@ const Navbar = () => {
               onClick={() => setActive(link.title)}
             >
               <a
-                className="text-white font-medium transition duration-300 hover:text-gray-600"
+                className="text-white font-medium transition duration-300 hover:text-brownish"
                 href={`${link.id}`}
               >
                 {link.title}

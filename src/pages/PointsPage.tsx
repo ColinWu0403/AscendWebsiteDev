@@ -1,17 +1,15 @@
-import React from "react";
-
-import { About, Navbar, Footer } from "../components";
+import { Navbar, Footer } from "../components";
 
 const PointsPage = () => {
   return (
     <div className="relative z-0">
-      <div>
-        <div className="">
-          <Navbar />
-        </div>
-        POints Page
+      <div className="mb-8">
+        <Navbar />
       </div>
-      <div className="relative z-0">
+      <div className="min-h-screen flex flex-col">
+        {/* <ImageSlider slides={slides} /> */}
+      </div>
+      <div className="">
         <Footer />
       </div>
     </div>

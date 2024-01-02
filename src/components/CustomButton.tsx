@@ -14,7 +14,7 @@ const CustomButton = () => {
   const transitionStyles = "transition-all duration-300 ease-in";
 
   // Hover styles
-  const hoverStyles = "group hover:bg-[#ffb845] hover:text-gray-600";
+  const hoverStyles = "group hover:bg-[#ffb845] hover:text-brownish";
 
   return (
     <button

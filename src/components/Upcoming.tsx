@@ -30,13 +30,22 @@ const UpcomingCard = ({
   time,
   location,
   image,
+}: {
+  event_title: string;
+  description: string;
+  date: string;
+  time: string;
+  location: string;
+  image: string;
 }) => {
   return (
     <div className="bg-[#ffe1b7] p-6 shadow-md flex max-w-[800px] w-[800px] mb-4">
       {/* Left side (Text content) */}
       <div className="flex flex-col pr-4">
         {/* Title */}
-        <h2 className="text-3xl font-bold mb-4">{event_title}</h2>
+        <h2 className="text-[#474747] text-3xl font-bold mb-4">
+          {event_title}
+        </h2>
 
         {/* Description */}
         <div className="mb-auto">
@@ -44,7 +53,7 @@ const UpcomingCard = ({
         </div>
 
         {/* Date, Time, Location */}
-        <div className="text-med">
+        <div className="text-[#727272] text-med">
           <p>Date: {date}</p>
           <p>Time: {time}</p>
           <p>Location: {location}</p>
