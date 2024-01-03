@@ -1,4 +1,4 @@
-import { Navbar, Footer } from "../components";
+import { Navbar, Footer, Join } from "../components";
 
 const JoinPage = () => {
   return (
@@ -6,7 +6,10 @@ const JoinPage = () => {
       <div className="mb-8">
         <Navbar />
       </div>
-      <div className="min-h-screen flex flex-col">{/* sdasdasf */}</div>
+      {/* Body Page */}
+      <div className="min-h-screen flex flex-col">
+        <Join />
+      </div>
       <div className="">
         <Footer />
       </div>
