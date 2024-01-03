@@ -8,6 +8,7 @@ const HomePage = () => {
       <div className="mb-8">
         <Navbar />
       </div>
+      {/* Body */}
       <div className="min-h-screen flex flex-col">
         {/* <ImageSlider slides={slides} /> */}
         <About />

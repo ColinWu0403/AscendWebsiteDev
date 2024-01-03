@@ -1,9 +1,15 @@
 import React from "react";
 
-const CustomButton = () => {
+const CustomButton = ({
+  button_text,
+  link,
+}: {
+  button_text: string;
+  link: string;
+}) => {
   const handleRedirect = () => {
-    const targetUrl = "https://www.ascendleadership.org/ourstory";
-    window.open(targetUrl, "_blank");
+    const targetUrl = { link };
+    window.open(targetUrl.link, "_blank");
   };
 
   // original button styles
@@ -21,7 +27,7 @@ const CustomButton = () => {
       onClick={handleRedirect}
       className={`${buttonStyles} ${transitionStyles} ${hoverStyles}`}
     >
-      Learn More
+      {button_text}
     </button>
   );
 };
