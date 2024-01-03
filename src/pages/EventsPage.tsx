@@ -1,6 +1,6 @@
 import React from "react";
 
-import { About, Navbar, Footer } from "../components";
+import { Navbar, Footer, Events } from "../components";
 
 const EventsPage = () => {
   return (
@@ -8,7 +8,9 @@ const EventsPage = () => {
       <div className="mb-8">
         <Navbar />
       </div>
-      <div className="min-h-screen flex flex-col">{/* saf */}</div>
+      <div className="min-h-screen flex flex-col">
+        <Events />
+      </div>
       <div className="">
         <Footer />
       </div>
