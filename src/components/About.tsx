@@ -66,7 +66,10 @@ const WhoWeAre = () => {
             transition={{ duration: 0.7 }}
             className="flex justify-center mt-8"
           >
-            <CustomButton />
+            <CustomButton
+              button_text={"Learn More"}
+              link={"https://www.ascendleadership.org/ourstory"}
+            />
           </motion.div>
         </div>
       </div>
