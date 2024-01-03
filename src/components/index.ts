@@ -7,6 +7,7 @@ import CustomButton from "./CustomButton";
 import Upcoming from "./Upcoming";
 import Team from "./Team";
 import Events from "./Events";
+import Join from "./Join";
 
 export {
   About,
@@ -17,4 +18,5 @@ export {
   Upcoming,
   Team,
   Events,
+  Join,
 };
