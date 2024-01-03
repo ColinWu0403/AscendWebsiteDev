@@ -6,5 +6,15 @@ import ImageSlider from "./ImageSlider";
 import CustomButton from "./CustomButton";
 import Upcoming from "./Upcoming";
 import Team from "./Team";
+import Events from "./Events";
 
-export { About, Navbar, Footer, ImageSlider, CustomButton, Upcoming, Team };
+export {
+  About,
+  Navbar,
+  Footer,
+  ImageSlider,
+  CustomButton,
+  Upcoming,
+  Team,
+  Events,
+};

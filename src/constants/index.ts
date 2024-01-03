@@ -202,3 +202,64 @@ export const officerData = [
   },
   {},
 ];
+
+export const eventData = [
+  {
+    semester: "Fall 2023",
+    big_event: "Case Competition",
+    big_pictures: [],
+    professional_event: [
+      {
+        name: "Career Panel",
+        image: "",
+      },
+      {
+        name: "Emotional Intelligence Workshop",
+        image: "",
+      },
+    ],
+    social_event: [
+      {
+        name: "Picnic Day",
+        images: [],
+      },
+      {
+        name: "Bowling Night",
+        images: [],
+      },
+      {
+        name: "Christmas Trash Exchange",
+        images: [],
+      },
+    ],
+  },
+  {
+    semester: "Spring 2023",
+    big_event: "",
+    big_pictures: [],
+    professional_event: [
+      {
+        name: "",
+        image: "",
+      },
+      {
+        name: "",
+        image: "",
+      },
+    ],
+    social_event: [
+      {
+        name: "",
+        images: [],
+      },
+      {
+        name: "",
+        images: [],
+      },
+      {
+        name: "",
+        images: [],
+      },
+    ],
+  },
+];
