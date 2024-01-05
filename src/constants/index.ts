@@ -207,58 +207,113 @@ export const eventData = [
   {
     semester: "Fall 2023",
     big_event: "Case Competition",
-    big_pictures: [],
+    big_pictures: [
+      {
+        name: "Image_1",
+        image:
+          "https://static.wixstatic.com/media/22c249_35ee4b2ce25746559bc79cc772d969ff~mv2.jpeg/v1/fill/w_928,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/22c249_35ee4b2ce25746559bc79cc772d969ff~mv2.jpeg",
+      },
+    ],
     professional_event: [
       {
         name: "Career Panel",
-        image: "",
+        image:
+          "https://static.wixstatic.com/media/22c249_fd0041607b274649af4e3c16ceaa76cf~mv2.jpg/v1/fill/w_798,h_782,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/IMG_6115.jpg",
       },
       {
         name: "Emotional Intelligence Workshop",
-        image: "",
+        image:
+          "https://static.wixstatic.com/media/22c249_c18eb0fc869448bc9058c9cacb4f4680~mv2.jpg/v1/fill/w_798,h_786,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/IMG_6114.jpg",
       },
     ],
     social_event: [
       {
         name: "Picnic Day",
-        images: [],
+        images: [
+          {
+            name: "Picnic Day 1",
+            image:
+              "https://static.wixstatic.com/media/22c249_fe0d52627e3648da8004914247170c08~mv2.png/v1/fill/w_606,h_610,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/22c249_fe0d52627e3648da8004914247170c08~mv2.png",
+          },
+          {
+            name: "Picnic Day 2",
+            image: "",
+          },
+        ],
       },
       {
         name: "Bowling Night",
-        images: [],
+        images: [
+          {
+            name: "Image_1",
+            image:
+              "https://static.wixstatic.com/media/22c249_cf2e5b8c4d2047ba8b71b05c24b3bad5~mv2.jpg/v1/fill/w_621,h_610,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Bowling1.jpg",
+          },
+        ],
       },
       {
         name: "Christmas Trash Exchange",
-        images: [],
+        images: [
+          {
+            name: "Image_1",
+            image:
+              "https://static.wixstatic.com/media/22c249_b8f6e2b3e66845a8a05669cb937a32f9~mv2.jpg/v1/fill/w_606,h_610,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/22c249_b8f6e2b3e66845a8a05669cb937a32f9~mv2.jpg",
+          },
+        ],
       },
     ],
   },
   {
     semester: "Spring 2023",
-    big_event: "",
-    big_pictures: [],
+    big_event: "Sandbox Case Competition",
+    big_pictures: [
+      {
+        name: "Image_1",
+        image:
+          "https://static.wixstatic.com/media/22c249_3d0a1056f6234a1f97b1906827d8c156~mv2.jpg/v1/fill/w_928,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/22c249_3d0a1056f6234a1f97b1906827d8c156~mv2.jpg",
+      },
+    ],
     professional_event: [
       {
-        name: "",
-        image: "",
+        name: "Marketing Executive Workshop",
+        image:
+          "https://static.wixstatic.com/media/22c249_5c8b9e33e245432789306b0efb18676b~mv2.jpg/v1/fill/w_984,h_632,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/22c249_5c8b9e33e245432789306b0efb18676b~mv2.jpg",
       },
       {
-        name: "",
-        image: "",
+        name: "Market Analysis: Customer Value Proposition",
+        image:
+          "https://static.wixstatic.com/media/22c249_34f8258160984824a3cf117e9bba4ec2~mv2.jpg/v1/fill/w_908,h_632,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/22c249_34f8258160984824a3cf117e9bba4ec2~mv2.jpg",
       },
     ],
     social_event: [
       {
-        name: "",
-        images: [],
+        name: "Make Your Own Boba",
+        images: [
+          {
+            name: "Image_1",
+            image:
+              "https://static.wixstatic.com/media/22c249_d9ff4385646645a8a2331785ad6b26ea~mv2.png/v1/fill/w_613,h_407,al_c,lg_1,q_85,enc_auto/22c249_d9ff4385646645a8a2331785ad6b26ea~mv2.png",
+          },
+        ],
       },
       {
-        name: "",
-        images: [],
+        name: "AAA Night Market",
+        images: [
+          {
+            name: "Image_1",
+            image:
+              "https://static.wixstatic.com/media/22c249_cc75ece774724ac88064ba8c39bb1c5c~mv2.jpg/v1/fill/w_876,h_610,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/22c249_cc75ece774724ac88064ba8c39bb1c5c~mv2.jpg",
+          },
+        ],
       },
       {
-        name: "",
-        images: [],
+        name: "ajasgk",
+        images: [
+          {
+            name: "Image_1",
+            image: "",
+          },
+        ],
       },
     ],
   },
