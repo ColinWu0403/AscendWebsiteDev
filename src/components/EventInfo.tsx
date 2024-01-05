@@ -1,12 +1,25 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { motion, useAnimation } from "framer-motion";
+
+import { fadeIn } from "../utils/motion";
 
 const EventInfo = ({
-  semester,
   big_event,
   big_pictures,
   professional_event,
   social_event,
+}: {
+  big_event: string;
+  big_pictures: any;
+  professional_event: any;
+  social_event: any;
 }) => {
+  const controls = useAnimation();
+
+  useEffect(() => {
+    controls.start("show"); // Use 'show' instead of 'visible'
+  }, [controls]);
+
   const renderBigEvent = () => {
     if (big_event) {
       return (
@@ -23,12 +36,17 @@ const EventInfo = ({
             </div>
 
             {/* Text content (approximately 3/4 of the width) */}
-            <div className="w-3/4">
+            <motion.div
+              initial="hidden"
+              animate={controls}
+              variants={fadeIn("down", "in", 0, 0.7)}
+              className="w-3/4"
+            >
               <h2 className="text-4xl font-bold mb-4">Big Semester Event</h2>
               <p className="text-lg font-base">
                 Every semester we have a big event spanning multiple weeks.
               </p>
-            </div>
+            </motion.div>
           </div>
 
           {/* Content and Pictures */}
@@ -44,9 +62,14 @@ const EventInfo = ({
               </div>
             )}
 
-            <h2 className="text-center font-medium text-2xl mb-4">
+            <motion.h2
+              initial="hidden"
+              animate={controls}
+              variants={fadeIn("down", "in", 0, 0.7)}
+              className="text-center font-medium text-2xl mb-4"
+            >
               {big_event}
-            </h2>
+            </motion.h2>
           </div>
         </div>
       );
@@ -71,13 +94,18 @@ const EventInfo = ({
             </div>
 
             {/* Text content (approximately 3/4 of the width) */}
-            <div className="w-3/4">
+            <motion.div
+              initial="hidden"
+              animate={controls}
+              variants={fadeIn("down", "in", 0, 0.7)}
+              className="w-3/4"
+            >
               <h2 className="text-4xl font-bold mb-4">Professional Event</h2>
               <p className="text-lg font-base mr-12">
                 We host various professional events throughout the semester,
                 including career panels, guest speakers and helpful workshops!
               </p>
-            </div>
+            </motion.div>
           </div>
 
           {/* Content and Images */}
@@ -93,11 +121,16 @@ const EventInfo = ({
               </div>
 
               {/* Professional Event Title 1 */}
-              <div className="mr-24">
+              <motion.div
+                initial="hidden"
+                animate={controls}
+                variants={fadeIn("down", "in", 0, 0.7)}
+                className="mr-24"
+              >
                 <h3 className="text-2xl font-medium">
                   {professional_event[0].name}
                 </h3>
-              </div>
+              </motion.div>
             </div>
 
             {/* Professional Event Image 2 */}
@@ -111,11 +144,16 @@ const EventInfo = ({
               </div>
 
               {/* Professional Event Title 2 */}
-              <div className="ml-24">
+              <motion.div
+                initial="hidden"
+                animate={controls}
+                variants={fadeIn("down", "in", 0, 0.7)}
+                className="ml-24"
+              >
                 <h3 className="text-2xl font-medium">
                   {professional_event[1].name}
                 </h3>
-              </div>
+              </motion.div>
             </div>
           </div>
         </div>
@@ -141,13 +179,18 @@ const EventInfo = ({
             </div>
 
             {/* Text content (approximately 3/4 of the width) */}
-            <div className="w-3/4">
+            <motion.div
+              initial="hidden"
+              animate={controls}
+              variants={fadeIn("down", "in", 0, 0.7)}
+              className="w-3/4"
+            >
               <h2 className="text-4xl font-bold mb-4">Social Event</h2>
               <p className="text-lg font-base mr-12">
                 We want our club members to not only develop professionally but
                 also to meet and socialize with other club members!
               </p>
-            </div>
+            </motion.div>
           </div>
 
           {/* Content and Images */}
@@ -163,9 +206,14 @@ const EventInfo = ({
               </div>
 
               {/* Professional Event Title 1 */}
-              <div className="mr-24">
+              <motion.div
+                initial="hidden"
+                animate={controls}
+                variants={fadeIn("down", "in", 0, 0.7)}
+                className="mr-24"
+              >
                 <h3 className="text-xl font-medium">{social_event[0].name}</h3>
-              </div>
+              </motion.div>
             </div>
 
             {/* Professional Event Image 1 */}
@@ -179,9 +227,14 @@ const EventInfo = ({
               </div>
 
               {/* Professional Event Title 1 */}
-              <div className="mr-24">
+              <motion.div
+                initial="hidden"
+                animate={controls}
+                variants={fadeIn("down", "in", 0, 0.7)}
+                className="mr-24"
+              >
                 <h3 className="text-xl font-medium">{social_event[1].name}</h3>
-              </div>
+              </motion.div>
             </div>
 
             {/* Professional Event Image 2 */}
@@ -195,11 +248,16 @@ const EventInfo = ({
               </div>
 
               {/* Professional Event Title 2 */}
-              <div className="mr-24">
+              <motion.div
+                initial="hidden"
+                animate={controls}
+                variants={fadeIn("down", "in", 0, 0.7)}
+                className="mr-24"
+              >
                 <h3 className="text-xl font-medium word-wrap">
                   {social_event[2].name}
                 </h3>
-              </div>
+              </motion.div>
             </div>
           </div>
         </div>
