@@ -1,5 +1,3 @@
-import React from "react";
-
 import { Navbar, Footer, Events } from "../components";
 
 const EventsPage = () => {

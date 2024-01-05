@@ -12,12 +12,12 @@ const Events = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const dropdownRef = useRef(null);
 
-  const handleSemesterChange = (semester) => {
+  const handleSemesterChange = (semester: string) => {
     setSelectedSemester(semester);
     setIsDropdownOpen(false);
   };
 
-  const handleClickOutside = (event) => {
+  const handleClickOutside = (event: MouseEvent) => {
     if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
       setIsDropdownOpen(false);
     }
@@ -41,7 +41,7 @@ const Events = () => {
   }, [controls]);
 
   const buttonStyles =
-    "w-[140px] bg-[#f09400] px-3 py-2 border border-[#d4d4d4] rounded-md font-medium text-[#ffffff] shadow-sm focus:outline-none focus:ring-2 focus:bg-[#f09400] focus:ring-[#f09400] focus:border-transparent";
+    "w-[140px] px-3 py-2 border border-[#d4d4d4] rounded-md font-medium text-[#ffffff] shadow-sm focus:outline-none focus:ring-2 focus:bg-[#f09400] focus:ring-[#f09400] focus:border-transparent";
 
   return (
     <div className="bg-[#ffffff] py-16 text-[#686768]">
@@ -72,10 +72,14 @@ const Events = () => {
           >
             Select Semester:
           </label>
+
+          {/* Dropdown Button */}
           <div className="mb-4 relative inline-block mt-3" ref={dropdownRef}>
             <button
               onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-              className={buttonStyles}
+              className={`${buttonStyles} ${
+                isDropdownOpen ? "bg-[#c97c00]" : "bg-[#f09400]"
+              }`}
             >
               {selectedSemester} <span className="ml-2">&#9662;</span>
             </button>

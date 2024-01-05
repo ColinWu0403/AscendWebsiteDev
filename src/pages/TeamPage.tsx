@@ -1,4 +1,4 @@
-import { About, Navbar, Footer, Team } from "../components";
+import { Navbar, Footer, Team } from "../components";
 
 const TeamPage = () => {
   return (
