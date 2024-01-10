@@ -1,7 +1,6 @@
-import React from "react";
 import PropTypes from "prop-types";
 
-const CarouselItem = ({ imageName }) => {
+const CarouselItem = ({ imageName }: { imageName: string }) => {
   return (
     <div>
       <img

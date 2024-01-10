@@ -1,5 +1,3 @@
-import React from "react";
-
 const CustomButton = ({
   button_text,
   link,

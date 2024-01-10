@@ -1,5 +1,3 @@
-import React from "react";
-
 const Join = () => {
   return (
     <div className="bg-[#fff] py-16 text-[#686768]">

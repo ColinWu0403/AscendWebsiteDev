@@ -169,13 +169,14 @@ export const boardData = [
   },
   {
     position: "VP of Internal",
-    name: "",
-    major: "",
+    name: "Shikha Adhikari",
+    major: "Animal Sciences",
     hometown: "",
     fun_fact: "",
-    introduction: "",
+    introduction:
+      "I like how we are a community that is diverse yet close-knit",
     image: "",
-    linkedIn: "",
+    linkedIn: "https://www.linkedin.com/in/shikha-adhikari-3a633b7a/",
   },
   {
     position: "VP of Finance",
@@ -200,7 +201,86 @@ export const officerData = [
     image: "",
     linkedIn: "https://www.linkedin.com/in/colinwu0403/",
   },
-  {},
+  {
+    committee: "Internal",
+    name: "Amanda Huang",
+    major: "Computer & Information Technology",
+    hometown: "",
+    fun_fact: "",
+    introduction:
+      "I enjoy Ascend has a balance between enhance business professional skill and networking/social events",
+    image:
+      "https://media.licdn.com/dms/image/C5603AQHa6I-difLdSg/profile-displayphoto-shrink_400_400/0/1631495891866?e=1710374400&v=beta&t=7TU_c_VkvAIdt7IMactQCMTQUe4bhGH6x9e8qfnSBbY",
+    linkedIn: "https://www.linkedin.com/in/amandahuang2025/",
+  },
+  {
+    committee: "Internal",
+    name: "Jason",
+    major: "Marketing and Management",
+    hometown: "",
+    fun_fact: "",
+    introduction:
+      "Ascend enhanced my networking skills and also provided me with invaluable experience in working with a diversity of individuals.",
+    image: "",
+    linkedIn: "",
+  },
+  {
+    committee: "External",
+    name: "Anurag Koripalli",
+    major: "Finance and Applied Statistics",
+    hometown: "",
+    fun_fact: "",
+    introduction:
+      "I enjoy the various different tasks and activities I am part of at Ascend, whether it be a resume workshop or maintaining alumni relations.",
+    image:
+      "https://media.licdn.com/dms/image/D5603AQEOzJIoZXdb3g/profile-displayphoto-shrink_400_400/0/1692177264807?e=1710374400&v=beta&t=CZA0iSZiUvHyVAtf3pzbpr1t7XvEIRQc61huDZ9bUtw",
+    linkedIn: "https://www.linkedin.com/in/anurag-koripalli/",
+  },
+  {
+    committee: "??",
+    name: "Nicole Kim",
+    major: "Data Analytics, Technologies and Application",
+    hometown: "",
+    fun_fact: "",
+    introduction:
+      "I appreciate the combination of diversity and a strong sense of unity within our community.",
+    image:
+      "https://media.licdn.com/dms/image/D5603AQFiiaPsXDEHkw/profile-displayphoto-shrink_800_800/0/1688726458402?e=1710374400&v=beta&t=isQ_yBvfsHqhNUfPj76fl6ibiSxNBOfpVZK6IGpDNCI",
+    linkedIn: "https://www.linkedin.com/in/nayoungkimpurdue/",
+  },
+  {
+    committee: "???",
+    name: "Soma Sato",
+    major: "Economics",
+    hometown: "",
+    fun_fact: "",
+    introduction:
+      "I like the friendliness of the community and their passion for pursuing their experience and knowledge.",
+    image:
+      "https://media.licdn.com/dms/image/D5603AQEXTpl1Cu1OGQ/profile-displayphoto-shrink_400_400/0/1685208765696?e=1710374400&v=beta&t=JoVkaruhtZ-DXKjqYZtvnPnTRjqSt9qu-fHXjcKORdA",
+    linkedIn: "https://www.linkedin.com/in/somajacksato0713/",
+  },
+  {
+    committee: "External",
+    name: "Luke Hong",
+    major: "",
+    hometown: "",
+    fun_fact: "",
+    introduction: "",
+    image:
+      "https://media.licdn.com/dms/image/D5603AQGSj5p82YhN2w/profile-displayphoto-shrink_400_400/0/1694527338394?e=1710374400&v=beta&t=OfSstsz-eb6aeBIV9unHcd5djxcAwoj5xe_WjoQAjdA",
+    linkedIn: "https://www.linkedin.com/in/luke-hong-60b645289/",
+  },
+  {
+    committee: "",
+    name: "",
+    major: "",
+    hometown: "",
+    fun_fact: "",
+    introduction: "",
+    image: "",
+    linkedIn: "",
+  },
 ];
 
 export const eventData = [
