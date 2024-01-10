@@ -1,5 +1,6 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
+import { EventInfoProps } from "../constants/types";
 
 import { fadeIn } from "../utils/motion";
 
@@ -8,12 +9,7 @@ const EventInfo = ({
   big_pictures,
   professional_event,
   social_event,
-}: {
-  big_event: string;
-  big_pictures: any;
-  professional_event: any;
-  social_event: any;
-}) => {
+}: EventInfoProps) => {
   const controls = useAnimation();
 
   useEffect(() => {

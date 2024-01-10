@@ -1,11 +1,18 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { HomePage, EventsPage, TeamPage, PointsPage, JoinPage } from "./pages";
+import { HashRouter, Routes, Route } from "react-router-dom";
+import {
+  HomePage,
+  EventsPage,
+  TeamPage,
+  PointsPage,
+  JoinPage,
+  ErrorPage,
+} from "./pages";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
-        <Route index element={<HomePage />}></Route>
+        <Route path="/" element={<HomePage />}></Route>
         <Route path="/home" element={<HomePage />}></Route>
         <Route path="/about" element={<HomePage />}></Route>
         <Route path="/events" element={<EventsPage />}></Route>
@@ -13,9 +20,9 @@ function App() {
         <Route path="/team" element={<TeamPage />}></Route>
         <Route path="/join" element={<JoinPage />}></Route>
 
-        <Route path="*" element={<HomePage />}></Route>
+        <Route path="*" element={<ErrorPage />}></Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

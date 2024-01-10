@@ -1,16 +1,15 @@
-import { About, Navbar, Footer, Upcoming } from "../components";
+import { Navbar, Footer } from "../components";
 
-const HomePage = () => {
+const ErrorPage = () => {
   return (
     <div className="relative z-0">
       <div className="mb-8">
         <Navbar />
       </div>
-      {/* Body */}
       <div className="min-h-screen flex flex-col">
-        {/* <ImageSlider slides={slides} /> */}
-        <About />
-        <Upcoming />
+        <h1 className="font-bold align-center text-primary justify-center font-[200px]">
+          Error
+        </h1>
       </div>
       <div className="">
         <Footer />
@@ -19,4 +18,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default ErrorPage;

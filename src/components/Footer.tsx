@@ -1,4 +1,3 @@
-import React from "react";
 import { styles } from "../styles";
 import { instagram, linkedin, email, slack } from "../assets";
 

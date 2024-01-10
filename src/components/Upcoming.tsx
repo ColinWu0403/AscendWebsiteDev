@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 
 import { fadeIn, fadeInFromTopVariants } from "../utils/motion";

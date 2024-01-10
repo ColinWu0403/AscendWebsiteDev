@@ -2,7 +2,7 @@ import About from "./About";
 import Navbar from "./Navbar";
 // import MyCarousel from "./MyCarousel";
 import Footer from "./Footer";
-import ImageSlider from "./ImageSlider";
+// import ImageSlider from "./ImageSlider";
 import CustomButton from "./CustomButton";
 import Upcoming from "./Upcoming";
 import Team from "./Team";
@@ -13,7 +13,7 @@ export {
   About,
   Navbar,
   Footer,
-  ImageSlider,
+  // ImageSlider,
   CustomButton,
   Upcoming,
   Team,

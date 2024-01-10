@@ -1,16 +1,17 @@
-import React, { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 
 import { eventData } from "../constants";
 import EventInfo from "./EventInfo";
 import { fadeIn, fadeInFromTopVariants } from "../utils/motion";
+import { socialEvent } from "../constants/types";
 
 const Events = () => {
   const [selectedSemester, setSelectedSemester] = useState(
     eventData[0].semester
   );
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-  const dropdownRef = useRef(null);
+  const dropdownRef = useRef<HTMLDivElement>(null);
 
   const handleSemesterChange = (semester: string) => {
     setSelectedSemester(semester);
@@ -18,7 +19,10 @@ const Events = () => {
   };
 
   const handleClickOutside = (event: MouseEvent) => {
-    if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+    if (
+      dropdownRef.current &&
+      !dropdownRef.current.contains(event.target as Node)
+    ) {
       setIsDropdownOpen(false);
     }
   };
@@ -39,6 +43,13 @@ const Events = () => {
   useEffect(() => {
     controls.start("show"); // Use 'show' instead of 'visible'
   }, [controls]);
+
+  const { big_event, big_pictures, professional_event, social_event } =
+    selectedEventData || {};
+
+  const defaultSocialEvent: socialEvent[] = [
+    { name: "", images: [{ name: "", image: "" }] },
+  ];
 
   const buttonStyles =
     "w-[140px] px-3 py-2 border border-[#d4d4d4] rounded-md font-medium text-[#ffffff] shadow-sm focus:outline-none focus:ring-2 focus:bg-[#f09400] focus:ring-[#f09400] focus:border-transparent";
@@ -91,6 +102,7 @@ const Events = () => {
                     key={event.semester}
                     className="block px-4 py-2 text-gray-800 hover:bg-gray-200 w-full text-left"
                     onClick={() => handleSemesterChange(event.semester)}
+                    type="button" // Add type attribute
                   >
                     {event.semester}
                   </button>
@@ -101,7 +113,13 @@ const Events = () => {
         </motion.div>
 
         {/* Menu data */}
-        <EventInfo {...selectedEventData} />
+
+        <EventInfo
+          big_event={big_event || "Default Big Event"}
+          big_pictures={big_pictures || []}
+          professional_event={professional_event || []}
+          social_event={social_event || defaultSocialEvent}
+        />
       </div>
     </div>
   );
