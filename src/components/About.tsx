@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
-
 import { CustomButton } from "../components";
 import { cardData } from "../constants";
 import { fadeIn, fadeInFromTopVariants } from "../utils/motion";
@@ -67,8 +66,10 @@ const WhoWeAre = () => {
             className="flex justify-center mt-8"
           >
             <CustomButton
-              button_text={"Learn More"}
-              link={"https://www.ascendleadership.org/ourstory"}
+              button_text="Learn More"
+              link="https://www.ascendleadership.org/ourstory"
+              color_styles="bg-[#f5af19]"
+              hover_color="hover:bg-[#ffb845]"
             />
           </motion.div>
         </div>
