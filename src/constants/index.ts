@@ -137,8 +137,7 @@ export const boardData = [
     fun_fact: "I usually watch videos and TV shows at 1.5x speed",
     introduction:
       "Hi, everyone! I’m Melanie. I’m a freshman in Marketing and am planning to double major in BAIM this year. One of my favorite things to do is people watching and see how they affect/are affected by the constantly-changing fashion trends, which is what initially got me into my major.",
-    image:
-      "https://static.wixstatic.com/media/3c4ffc_4d108ff92eb141ba9220efdc6588ad3c~mv2.jpg/v1/crop/x_0,y_71,w_314,h_275/fill/w_439,h_385,al_c,lg_1,q_80,enc_auto/Melanie.jpg",
+    image: "https://iili.io/J7DqBV9.jpg",
     linkedIn: "https://www.linkedin.com/in/rou-chi-melanie-huang-458357252/",
   },
   {
