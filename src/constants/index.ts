@@ -150,7 +150,7 @@ export const boardData = [
     introduction:
       "I am interested in business fields such as quant and risk management. At my down time I like to breakdance and play switch",
     image:
-      "https://static.wixstatic.com/media/3c4ffc_eb74d25a30c44fa6827386c7da3fdb88~mv2.jpg/v1/crop/x_35,y_0,w_262,h_217/fill/w_346,h_304,al_c,lg_1,q_80,enc_auto/tony.jpg",
+      "https://media.licdn.com/dms/image/D4D03AQGZQ4P5KKtdGw/profile-displayphoto-shrink_800_800/0/1695234430675?e=1710374400&v=beta&t=X7cQ2Nf0pSnaNh2BeWxzdypDnB2G9GdReZNFu5D8dMQ",
     linkedIn: "https://www.linkedin.com/in/qingyang-zhang-4b4a83172/",
   },
   {
@@ -196,8 +196,10 @@ export const officerData = [
     major: "Computer Science",
     hometown: "Belize City, Belize",
     fun_fact: "I made this website lol",
-    introduction: "sfjskkfajkfklasga",
-    image: "",
+    introduction:
+      "Hello everyone! I'm Colin Wu. I am currently a Sophomore in Computer Science. I enjoy being part of Purdue Ascend as it is a great community of many different people from different majors and backgrounds. I also enjoy the professional development and networking opportunities that Purdue Ascend provides.",
+    image:
+      "https://media.licdn.com/dms/image/D4E03AQHPHsQoljwuxA/profile-displayphoto-shrink_400_400/0/1704947266807?e=1710374400&v=beta&t=5QrSYCbP7Il6QDG_UoLq-7gyhwUdW1z7tkdbAn6mTnY",
     linkedIn: "https://www.linkedin.com/in/colinwu0403/",
   },
   {

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { logo, menu, close, logo_white } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${styles.paddingX} w-full flex item-center py-5 fixed top-0 z-20 bg-[#e48c17] pl-5 pr-5`}
+      className={`${styles.paddingX} w-full flex item-center fixed top-0 z-20 bg-[#e48c17] pl-5 pr-5`}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         {/* Logo */}
@@ -23,11 +23,11 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-11 h-11 object-contain" />
-          <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Ascend&nbsp;
-            <span className="xs:block hidden font-bold">Purdue</span>
-          </p>
+          <img
+            src={logo_white}
+            alt="logo"
+            className="w-24 h-24 object-contain md:ml-12 ml-8"
+          />
         </Link>
 
         {/* Right Hand Navbar */}

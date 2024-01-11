@@ -7,5 +7,17 @@ import linkedin from "./linkedin.svg";
 import mail from "./mail.svg";
 import slack from "./slack.svg";
 import email from "./email.svg";
+import logo_white from "./logo_white.svg";
 
-export { react, logo, menu, close, instagram, linkedin, mail, slack, email };
+export {
+  react,
+  logo,
+  menu,
+  close,
+  instagram,
+  linkedin,
+  mail,
+  slack,
+  email,
+  logo_white,
+};
