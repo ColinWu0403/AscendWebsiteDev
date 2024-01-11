@@ -8,6 +8,7 @@ import Upcoming from "./Upcoming";
 import Team from "./Team";
 import Events from "./Events";
 import Join from "./Join";
+import Points from "./Points";
 
 export {
   About,
@@ -19,4 +20,5 @@ export {
   Team,
   Events,
   Join,
+  Points,
 };
