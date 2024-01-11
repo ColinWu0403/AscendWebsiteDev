@@ -21,7 +21,7 @@ const Team = () => {
           transition={{ duration: 0.3 }}
           className="text-center mt-8 mb-4"
         >
-          <h1 className="text-[#f09400] text-4xl font-medium mb-4 relative inline-block">
+          <h1 className="text-[#f09400] md:text-4xl text-3xl font-medium mb-4 relative inline-block">
             Board Members
             <span className="block w-12 h-1 bg-[#f09400] mx-auto mt-2 font-bold mb-4"></span>
           </h1>
@@ -80,64 +80,62 @@ const BoardCard = ({
   const controls = useAnimation();
 
   useEffect(() => {
-    controls.start("show"); // Use 'show' instead of 'visible'
+    controls.start("show");
   }, [controls]);
 
   return (
-    <div className="bg-[#ffe1b7] p-12 flex w-full">
-      <div className="flex flex-row h-full w-screen">
-        {/* Image with LinkedIn icon */}
-        <motion.img
-          initial="hidden"
-          animate={controls}
-          variants={fadeIn("down", "in", 0, 0.5)}
-          src={image}
-          alt="Team Member Image"
-          className="md:w-[250px] md:h-[250px] w-[187.5px] h-[187.5px] object-cover rounded-md mb-4"
-        />
+    <div className="bg-[#ffe1b7] md:p-12 p-8 flex flex-col md:flex-row w-full items-center">
+      {/* Image with LinkedIn icon */}
+      <motion.img
+        initial="hidden"
+        animate={controls}
+        variants={fadeIn("down", "in", 0, 0.5)}
+        src={image}
+        alt="Team Member Image"
+        className="md:w-[250px] md:h-[250px] w-[187.5px] h-[187.5px] object-cover rounded-md mb-4 md:mr-8"
+      />
 
-        {/* Text content */}
-        <motion.div
-          initial="hidden"
-          animate={controls}
-          variants={fadeIn("down", "in", 0, 0.7)}
-          className="ml-8"
-        >
-          {/* Position */}
-          <h2 className="md:text-3xl text-2xl font-bold mb-2">{position}</h2>
+      {/* Text content */}
+      <motion.div
+        initial="hidden"
+        animate={controls}
+        variants={fadeIn("down", "in", 0, 0.7)}
+        className="md:ml-8 md:text-left text-center"
+      >
+        {/* Position */}
+        <h2 className="md:text-3xl text-2xl font-bold mb-2">{position}</h2>
 
-          {/* Name */}
-          <p className="md:text-xl text-lg font-medium mb-4">{name}</p>
+        {/* Name */}
+        <p className="md:text-xl text-lg font-medium mb-4">{name}</p>
 
-          {/* Major, Hometown, Fun Fact */}
-          <div className="mb-4 md:text-base text-med">
-            <p className="mb-1">
-              <span className="font-bold">Major:</span> {major}
-            </p>
-            <p className="mb-1">
-              <span className="font-bold">Hometown:</span> {hometown}
-            </p>
-            <p className="mb-1">
-              <span className="font-bold">Fun Fact:</span> {fun_fact}
-            </p>
-          </div>
+        {/* Major, Hometown, Fun Fact */}
+        <div className="mb-4 md:text-base text-med">
+          <p className="mb-1">
+            <span className="font-bold">Major:</span> {major}
+          </p>
+          <p className="mb-1">
+            <span className="font-bold">Hometown:</span> {hometown}
+          </p>
+          <p className="mb-1">
+            <span className="font-bold">Fun Fact:</span> {fun_fact}
+          </p>
+        </div>
 
-          {/* Introduction */}
-          <p className="mb-2 md:text-med text-sm">{introduction}</p>
+        {/* Introduction */}
+        <p className="mb-2 md:text-med text-sm">{introduction}</p>
 
-          {/* LinkedIn Link */}
-          {linkedIn && (
-            <a
-              href={linkedIn}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-medium text-[#0e76a8] hover:text-[#26b9ff] transition duration-300"
-            >
-              LinkedIn
-            </a>
-          )}
-        </motion.div>
-      </div>
+        {/* LinkedIn Link */}
+        {linkedIn && (
+          <a
+            href={linkedIn}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-medium text-[#0e76a8] hover:text-[#26b9ff] transition duration-300"
+          >
+            LinkedIn
+          </a>
+        )}
+      </motion.div>
     </div>
   );
 };
@@ -168,62 +166,60 @@ const OfficerCard = ({
   }, [controls]);
 
   return (
-    <div className="bg-[#ffe1b7] p-12 flex w-full">
-      <div className="flex flex-row h-full w-screen">
-        {/* Image with LinkedIn icon */}
-        <motion.img
-          initial="hidden"
-          animate={controls}
-          variants={fadeIn("down", "in", 0, 0.7)}
-          src={image}
-          alt="Team Member Image"
-          className="md:w-[250px] md:h-[250px] w-[187.5px] h-[187.5px] object-cover rounded-md mb-4"
-        />
+    <div className="bg-[#ffe1b7] md:p-12 p-8 flex flex-col md:flex-row w-full items-center">
+      {/* Image with LinkedIn icon */}
+      <motion.img
+        initial="hidden"
+        animate={controls}
+        variants={fadeIn("down", "in", 0, 0.7)}
+        src={image}
+        alt="Team Member Image"
+        className="md:w-[250px] md:h-[250px] w-[187.5px] h-[187.5px] object-cover rounded-md mb-4"
+      />
 
-        {/* Text content */}
-        <motion.div
-          initial="hidden"
-          animate={controls}
-          variants={fadeIn("down", "in", 0, 0.7)}
-          className="ml-8"
-        >
-          {/* Position */}
-          <h2 className="md:text-3xl text-2xl font-bold mb-2">
-            {committee} Committee
-          </h2>
+      {/* Text content */}
+      <motion.div
+        initial="hidden"
+        animate={controls}
+        variants={fadeIn("down", "in", 0, 0.7)}
+        className="md:ml-8 md:text-left text-center"
+      >
+        {/* Position */}
+        <h2 className="md:text-3xl text-2xl font-bold mb-2">
+          {committee} Committee
+        </h2>
 
-          {/* Name */}
-          <p className="md:text-xl text-lg font-medium mb-4">{name}</p>
+        {/* Name */}
+        <p className="md:text-xl text-lg font-medium mb-4">{name}</p>
 
-          {/* Major, Hometown, Fun Fact */}
-          <div className="mb-4 md:text-base text-med">
-            <p className="mb-1">
-              <span className="font-bold">Major:</span> {major}
-            </p>
-            <p className="mb-1">
-              <span className="font-bold">Hometown:</span> {hometown}
-            </p>
-            <p className="mb-1">
-              <span className="font-bold">Fun Fact:</span> {fun_fact}
-            </p>
-          </div>
+        {/* Major, Hometown, Fun Fact */}
+        <div className="mb-4 md:text-base text-med">
+          <p className="mb-1">
+            <span className="font-bold">Major:</span> {major}
+          </p>
+          <p className="mb-1">
+            <span className="font-bold">Hometown:</span> {hometown}
+          </p>
+          <p className="mb-1">
+            <span className="font-bold">Fun Fact:</span> {fun_fact}
+          </p>
+        </div>
 
-          {/* Introduction */}
-          <p className="mb-2 md:text-med text-sm">{introduction}</p>
+        {/* Introduction */}
+        <p className="mb-2 md:text-med text-sm">{introduction}</p>
 
-          {/* LinkedIn Link */}
-          {linkedIn && (
-            <a
-              href={linkedIn}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-medium text-[#0e76a8] hover:text-[#26b9ff] transition duration-300"
-            >
-              LinkedIn
-            </a>
-          )}
-        </motion.div>
-      </div>
+        {/* LinkedIn Link */}
+        {linkedIn && (
+          <a
+            href={linkedIn}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-medium text-[#0e76a8] hover:text-[#26b9ff] transition duration-300"
+          >
+            LinkedIn
+          </a>
+        )}
+      </motion.div>
     </div>
   );
 };

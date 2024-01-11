@@ -96,24 +96,23 @@ export const cardData = [
 
 export const upcomingData = [
   {
-    event_title: "Casino Night",
+    event_title: "Ascend Callouts",
     description:
-      "Join us on Thursday for a gaming extravaganza featuring Blackjack, Poker, and more!",
-    date: "11/23 (Thur.)",
-    time: "6:30 PM - 8:00 PM",
-    location: "RAWL 1071",
-    image:
-      "https://static.wixstatic.com/media/22c249_1542e170fe024802b4b65c1f4c89b2b8~mv2.png/v1/fill/w_660,h_660,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/F23_12_PNG.png",
-  },
-  {
-    event_title: "November Events",
-    description: "Here are the November upcoming events!",
-    date: "Thur",
+      "Join us on Thursday Jan 11 and Jan 18 to learn all about Ascend, including our events and projects for the Spring semester",
+    date: "1/11 (Thur.)",
     time: "6:30 PM - 7:30 PM",
     location: "RAWL 1071",
-    image:
-      "https://static.wixstatic.com/media/22c249_cb748ea9dc0d4dc6bba55e7169d14fed~mv2.jpg/v1/fill/w_660,h_660,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/23_Nov.jpg",
+    image: "https://iili.io/JY9hOwF.png",
   },
+  // {
+  //   event_title: "November Events",
+  //   description: "Here are the November upcoming events!",
+  //   date: "Thur",
+  //   time: "6:30 PM - 7:30 PM",
+  //   location: "RAWL 1071",
+  //   image:
+  //     "https://static.wixstatic.com/media/22c249_cb748ea9dc0d4dc6bba55e7169d14fed~mv2.jpg/v1/fill/w_660,h_660,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/23_Nov.jpg",
+  // },
 ];
 
 export const boardData = [
@@ -238,7 +237,7 @@ export const officerData = [
     linkedIn: "https://www.linkedin.com/in/anurag-koripalli/",
   },
   {
-    committee: "??",
+    committee: "Internal",
     name: "Nicole Kim",
     major: "Data Analytics, Technologies and Application",
     hometown: "",
@@ -250,7 +249,7 @@ export const officerData = [
     linkedIn: "https://www.linkedin.com/in/nayoungkimpurdue/",
   },
   {
-    committee: "???",
+    committee: "Finance",
     name: "Soma Sato",
     major: "Economics",
     hometown: "",
