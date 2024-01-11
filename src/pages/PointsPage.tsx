@@ -1,4 +1,4 @@
-import { Navbar, Footer } from "../components";
+import { Navbar, Footer, Points } from "../components";
 
 const PointsPage = () => {
   return (
@@ -7,7 +7,7 @@ const PointsPage = () => {
         <Navbar />
       </div>
       <div className="min-h-screen flex flex-col">
-        {/* <ImageSlider slides={slides} /> */}
+        <Points />
       </div>
       <div className="">
         <Footer />

@@ -64,9 +64,9 @@ const Events = () => {
           transition={{ duration: 0.3 }}
           className="text-center mt-8 mb-4"
         >
-          <h1 className="text-[#f09400] text-5xl font-medium mb-4 relative inline-block">
+          <h1 className="text-[#f09400] md:text-5xl text-4xl font-medium md:mb-4 mb-2 relative inline-block">
             {selectedSemester} Events
-            <span className="block w-12 h-1 bg-[#f09400] mx-auto mt-2 font-bold mb-4"></span>
+            <span className="block w-12 h-1 bg-[#f09400] mx-auto mt-2 font-bold md:mb-4"></span>
           </h1>
         </motion.div>
 
