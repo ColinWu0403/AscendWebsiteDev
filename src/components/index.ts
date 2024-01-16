@@ -9,6 +9,7 @@ import Team from "./Team";
 import Events from "./Events";
 import Join from "./Join";
 import Points from "./Points";
+import Hero from "./Hero";
 
 export {
   About,
@@ -21,4 +22,5 @@ export {
   Events,
   Join,
   Points,
+  Hero,
 };

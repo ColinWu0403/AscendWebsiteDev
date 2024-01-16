@@ -1,4 +1,4 @@
-import { About, Navbar, Footer, Upcoming } from "../components";
+import { About, Navbar, Footer, Upcoming, Hero } from "../components";
 
 const HomePage = () => {
   return (
@@ -8,7 +8,12 @@ const HomePage = () => {
       </div>
       {/* Body */}
       <div className="min-h-screen flex flex-col">
-        {/* <ImageSlider slides={slides} /> */}
+        <div className="">
+          <Hero
+            backgroundImage="https://i.postimg.cc/zBCf99N6/Purdue-Wallpaper.png"
+            largeText="Ascend Purdue"
+          />
+        </div>
         <About />
         <Upcoming />
       </div>

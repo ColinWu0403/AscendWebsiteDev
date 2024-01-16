@@ -129,15 +129,16 @@ export const boardData = [
     linkedIn: "https://www.linkedin.com/in/menghsuanx/",
   },
   {
-    position: "VP of Professional",
+    position: "VP of Events",
     name: "Melanie Huang",
-    major: "Marketing",
+    major: "Marketing; Business Analytics and Information Management (BAIM)",
     hometown: "Taipei, Taiwan",
-    fun_fact: "I usually watch videos and TV shows at 1.5x speed",
+    fun_fact:
+      "I love experimenting with food and often enjoy unusual food combinations like avocado with sriracha or soy sauce, and banana with peanut butter.",
     introduction:
-      "Hi, everyone! I’m Melanie. I’m a freshman in Marketing and am planning to double major in BAIM this year. One of my favorite things to do is people watching and see how they affect/are affected by the constantly-changing fashion trends, which is what initially got me into my major.",
+      "I like how welcoming Ascend people are and how we are able to build strong bonds with each other",
     image: "https://iili.io/J7DqBV9.jpg",
-    linkedIn: "https://www.linkedin.com/in/rou-chi-melanie-huang-458357252/",
+    linkedIn: "https://www.linkedin.com/in/rou-chi-melanie-huang/",
   },
   {
     position: "VP of External",
@@ -153,12 +154,11 @@ export const boardData = [
     linkedIn: "https://www.linkedin.com/in/qingyang-zhang-4b4a83172/",
   },
   {
-    position: "VP of Marketing",
+    position: "VP of Marketing, VP of Signature Events",
     name: "Deirdre Lin",
-    major: "Marketing & Business Analytics and Information Management",
+    major: "Marketing; Business Analytics and Information Management (BAIM)",
     hometown: "Keelung, Taiwan",
-    fun_fact:
-      "My favorite food is stinky tofu, which most people usually can’t bear its smell",
+    fun_fact: "I had once cycled around Taiwan in 13 days.",
     introduction:
       "Hi! I’m Deirdre and I’m a junior at Purdue. I enjoy developing business professional skills and building connections with others. I also love ice-skating, playing piano, and watching Netflix. HMU if you wanna hang out!!",
     image:
@@ -173,17 +173,17 @@ export const boardData = [
     fun_fact: "",
     introduction:
       "I like how we are a community that is diverse yet close-knit",
-    image: "",
+    image: "https://i.postimg.cc/y8sHkkFJ/image12.png",
     linkedIn: "https://www.linkedin.com/in/shikha-adhikari-3a633b7a/",
   },
   {
     position: "VP of Finance",
-    name: "",
-    major: "",
+    name: "Maryam Shakil",
+    major: "Economics; Data Science",
     hometown: "",
     fun_fact: "",
-    introduction: "",
-    image: "",
+    introduction: "I like how welcoming and friendly everyone is in Ascend ",
+    image: "https://i.postimg.cc/PrFWqwGy/image13.jpg",
     linkedIn: "",
   },
 ];
@@ -215,13 +215,13 @@ export const officerData = [
   },
   {
     committee: "Internal",
-    name: "Jason",
-    major: "Marketing and Management",
+    name: "Jason Wu",
+    major: "Marketing; Management",
     hometown: "",
     fun_fact: "",
     introduction:
       "Ascend enhanced my networking skills and also provided me with invaluable experience in working with a diversity of individuals.",
-    image: "",
+    image: "https://i.postimg.cc/8CncRhHX/image1.jpg",
     linkedIn: "",
   },
   {
@@ -270,6 +270,60 @@ export const officerData = [
     image:
       "https://media.licdn.com/dms/image/D5603AQGSj5p82YhN2w/profile-displayphoto-shrink_400_400/0/1694527338394?e=1710374400&v=beta&t=OfSstsz-eb6aeBIV9unHcd5djxcAwoj5xe_WjoQAjdA",
     linkedIn: "https://www.linkedin.com/in/luke-hong-60b645289/",
+  },
+  {
+    committee: "???",
+    name: "Hannah Yen",
+    major: "Public Health",
+    hometown: "",
+    fun_fact: "",
+    introduction: "People are nice and the events are funny and meaningful.",
+    image: "https://i.postimg.cc/3NtcNx7G/image9.jpg",
+    linkedIn: "",
+  },
+  {
+    committee: "????",
+    name: "Kevin Wang",
+    major: "Applied Statistics; Economics",
+    hometown: "",
+    fun_fact: "",
+    introduction:
+      "Everyone in Ascend is inclusive and we all try our best to get to know more of each and every individual member.",
+    image: "https://i.postimg.cc/nzH2mf3G/image11.jpg",
+    linkedIn: "",
+  },
+  {
+    committee: "????",
+    name: "Ethan Wong",
+    major: "Accounting; Finance",
+    hometown: "",
+    fun_fact: "",
+    introduction:
+      "I like the inclusivity of Ascend and its mission to help students seek opportunities.",
+    image: "",
+    linkedIn: "",
+  },
+  {
+    committee: "???",
+    name: "Leonard Chiu",
+    major: "Business Analytics and Information Management (BAIM); Supply Chain",
+    hometown: "",
+    fun_fact: "",
+    introduction:
+      "I like how ascend is welcoming to anyone and how everyone is down to earth.",
+    image: "https://i.postimg.cc/sfbnnqxs/image8.png",
+    linkedIn: "",
+  },
+  {
+    committee: "???",
+    name: "Avery Lee",
+    major: "Supply Chain; Operations Management",
+    hometown: "",
+    fun_fact: "",
+    introduction:
+      "I like that Ascend is a growing organization that focuses on creating events that benefit its members in many different ways.",
+    image: "https://i.postimg.cc/cJ1TgN9M/image2.jpg",
+    linkedIn: "",
   },
   {
     committee: "",
@@ -387,7 +441,7 @@ export const eventData = [
         ],
       },
       {
-        name: "ajasgk",
+        name: "Social Event 3",
         images: [
           {
             name: "Image_1",
