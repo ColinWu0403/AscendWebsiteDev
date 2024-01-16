@@ -8,6 +8,7 @@ import mail from "./mail.svg";
 import slack from "./slack.svg";
 import email from "./email.svg";
 import logo_white from "./logo_white.svg";
+import AscendLogo from "./AscendLogo.svg";
 
 export {
   react,
@@ -20,4 +21,5 @@ export {
   slack,
   email,
   logo_white,
+  AscendLogo,
 };
