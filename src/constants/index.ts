@@ -28,21 +28,6 @@ export const navLinks = [
   },
 ];
 
-export const colors = [
-  {
-    name: "blue",
-    color: "#00DDF6",
-  },
-  {
-    name: "green",
-    color: "#00F6DD",
-  },
-  {
-    name: "sdjfkanskjfdnas",
-    color: "#00F6DD",
-  },
-];
-
 export const images = [
   {
     name: "logo",
@@ -179,12 +164,14 @@ export const boardData = [
   {
     position: "VP of Finance",
     name: "Maryam Shakil",
-    major: "Economics; Data Science",
-    hometown: "",
-    fun_fact: "",
+    major: "Economics; Data Analytics",
+    hometown: "Brownsburg, IN",
+    fun_fact:
+      "I have a huge sweet tooth and love to read and watch dramas in my free time!",
     introduction: "I like how welcoming and friendly everyone is in Ascend ",
-    image: "https://i.postimg.cc/PrFWqwGy/image13.jpg",
-    linkedIn: "",
+    image: "https://i.postimg.cc/1zD5J2TM/IMG-6315-Maryam.jpg",
+    linkedIn:
+      "https://www.linkedin.com/in/maryam-shakil?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BmOGliGwXTFyeHBxJFGYq8g%3D%3D",
   },
 ];
 
@@ -205,8 +192,9 @@ export const officerData = [
     committee: "Internal",
     name: "Amanda Huang",
     major: "Computer & Information Technology",
-    hometown: "",
-    fun_fact: "",
+    hometown: "Taiwan",
+    fun_fact:
+      "I've been playing badminton for over 8 years. If you share the love for this sport, let me know, and we can play together!",
     introduction:
       "I enjoy Ascend has a balance between enhance business professional skill and networking/social events",
     image:
@@ -240,10 +228,10 @@ export const officerData = [
     committee: "Internal",
     name: "Nicole Kim",
     major: "Data Analytics, Technologies and Application",
-    hometown: "",
-    fun_fact: "",
+    hometown: "Seoul, Korea",
+    fun_fact: "I enjoy bouldering!",
     introduction:
-      "I appreciate the combination of diversity and a strong sense of unity within our community.",
+      "I enjoy networking with people through our comminuty and the combination of diversity",
     image:
       "https://media.licdn.com/dms/image/D5603AQFiiaPsXDEHkw/profile-displayphoto-shrink_800_800/0/1688726458402?e=1710374400&v=beta&t=isQ_yBvfsHqhNUfPj76fl6ibiSxNBOfpVZK6IGpDNCI",
     linkedIn: "https://www.linkedin.com/in/nayoungkimpurdue/",
@@ -272,14 +260,14 @@ export const officerData = [
     linkedIn: "https://www.linkedin.com/in/luke-hong-60b645289/",
   },
   {
-    committee: "???",
+    committee: "Event",
     name: "Hannah Yen",
     major: "Public Health",
-    hometown: "",
-    fun_fact: "",
+    hometown: "Taiwan",
+    fun_fact: "I like to play sports",
     introduction: "People are nice and the events are funny and meaningful.",
     image: "https://i.postimg.cc/3NtcNx7G/image9.jpg",
-    linkedIn: "",
+    linkedIn: "www.linkedin.com/in/hannah-yen-38a208237",
   },
   {
     committee: "????",
@@ -293,15 +281,15 @@ export const officerData = [
     linkedIn: "",
   },
   {
-    committee: "????",
+    committee: "Finance",
     name: "Ethan Wong",
-    major: "Accounting; Finance",
-    hometown: "",
-    fun_fact: "",
+    major: "Finance",
+    hometown: "Brunei",
+    fun_fact: "I love snowboarding and basketball ",
     introduction:
       "I like the inclusivity of Ascend and its mission to help students seek opportunities.",
-    image: "",
-    linkedIn: "",
+    image: "https://i.postimg.cc/pT88QsYt/Ethan-Wong.jpg",
+    linkedIn: "www.linkedin.com/in/ethanwongg",
   },
   {
     committee: "???",
@@ -324,6 +312,17 @@ export const officerData = [
       "I like that Ascend is a growing organization that focuses on creating events that benefit its members in many different ways.",
     image: "https://i.postimg.cc/cJ1TgN9M/image2.jpg",
     linkedIn: "",
+  },
+  {
+    committee: "Marketing",
+    name: "Hayden Lo",
+    major: "General Management",
+    hometown: "Livingston, NJ",
+    fun_fact: "I like playing basketball and I like running hurdles.",
+    introduction:
+      "I like Ascend because it allows me to meet new people and learn more about business as a whole.",
+    image: "https://i.postimg.cc/qRzrWFD9/Hayden-Lo.jpg",
+    linkedIn: "https://www.linkedin.com/in/hayden-lo-044b902a7/",
   },
   {
     committee: "",
