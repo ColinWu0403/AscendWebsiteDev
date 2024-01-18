@@ -251,10 +251,11 @@ export const officerData = [
   {
     committee: "External",
     name: "Luke Hong",
-    major: "",
+    major: "Marketing",
     hometown: "Fullerton, California",
-    fun_fact: "",
-    introduction: "",
+    fun_fact: "I love socializing with other people!",
+    introduction:
+      "Hello, my name is Luke. I am excited to work with all of you.",
     image:
       "https://media.licdn.com/dms/image/D5603AQGSj5p82YhN2w/profile-displayphoto-shrink_400_400/0/1694527338394?e=1710374400&v=beta&t=OfSstsz-eb6aeBIV9unHcd5djxcAwoj5xe_WjoQAjdA",
     linkedIn: "https://www.linkedin.com/in/luke-hong-60b645289/",
