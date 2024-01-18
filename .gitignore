@@ -14,6 +14,7 @@ dist-ssr
 
 404.html
 robots.txt
+mock.json
 
 # Editor directories and files
 .vscode/*

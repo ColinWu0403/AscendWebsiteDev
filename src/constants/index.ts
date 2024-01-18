@@ -183,7 +183,7 @@ export const officerData = [
     hometown: "Belize City, Belize",
     fun_fact: "I made this website lol",
     introduction:
-      "Hello everyone! I'm Colin Wu. I am currently a Sophomore in Computer Science. I enjoy being part of Purdue Ascend as it is a great community of many different people from different majors and backgrounds. I also enjoy the professional development and networking opportunities that Purdue Ascend provides.",
+      "Hello everyone! I'm Colin Wu. I am currently a Sophomore in Computer Science. I enjoy being part of Purdue Ascend as it is a great community of many different people from different majors and backgrounds. I also enjoy the professional development and networking opportunities that Purdue Ascend provides!",
     image:
       "https://media.licdn.com/dms/image/D4E03AQHPHsQoljwuxA/profile-displayphoto-shrink_400_400/0/1704947266807?e=1710374400&v=beta&t=5QrSYCbP7Il6QDG_UoLq-7gyhwUdW1z7tkdbAn6mTnY",
     linkedIn: "https://www.linkedin.com/in/colinwu0403/",
@@ -252,7 +252,7 @@ export const officerData = [
     committee: "External",
     name: "Luke Hong",
     major: "",
-    hometown: "",
+    hometown: "Fullerton, California",
     fun_fact: "",
     introduction: "",
     image:
@@ -270,7 +270,7 @@ export const officerData = [
     linkedIn: "www.linkedin.com/in/hannah-yen-38a208237",
   },
   {
-    committee: "????",
+    committee: "Finance",
     name: "Kevin Wang",
     major: "Applied Statistics, Economics",
     hometown: "",
