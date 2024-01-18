@@ -55,7 +55,7 @@ const Hero = ({
         animate="visible"
         variants={fadeInFromTopVariants}
         transition={{ duration: 0.7 }}
-        className="justify-center absolute top-[600px] md:top-[560px]"
+        className="justify-center absolute top-[630px] md:top-[560px]"
       >
         <CustomButton
           button_text="Learn More"
