@@ -204,7 +204,7 @@ export const officerData = [
   {
     committee: "Internal",
     name: "Jason Wu",
-    major: "Marketing; Management",
+    major: "Marketing, Management",
     hometown: "",
     fun_fact: "",
     introduction:
@@ -215,9 +215,9 @@ export const officerData = [
   {
     committee: "External",
     name: "Anurag Koripalli",
-    major: "Finance and Applied Statistics",
-    hometown: "",
-    fun_fact: "",
+    major: "Finance, BAIM, Applied Statistics",
+    hometown: "Bangalore",
+    fun_fact: "Love watching the UFC in my free time",
     introduction:
       "I enjoy the various different tasks and activities I am part of at Ascend, whether it be a resume workshop or maintaining alumni relations.",
     image:
@@ -272,7 +272,7 @@ export const officerData = [
   {
     committee: "????",
     name: "Kevin Wang",
-    major: "Applied Statistics; Economics",
+    major: "Applied Statistics, Economics",
     hometown: "",
     fun_fact: "",
     introduction:
@@ -292,9 +292,9 @@ export const officerData = [
     linkedIn: "www.linkedin.com/in/ethanwongg",
   },
   {
-    committee: "???",
+    committee: "Signature Event",
     name: "Leonard Chiu",
-    major: "Business Analytics and Information Management (BAIM); Supply Chain",
+    major: "Business Analytics and Information Management (BAIM), Supply Chain",
     hometown: "",
     fun_fact: "",
     introduction:
@@ -303,9 +303,9 @@ export const officerData = [
     linkedIn: "",
   },
   {
-    committee: "???",
+    committee: "Signature Event",
     name: "Avery Lee",
-    major: "Supply Chain; Operations Management",
+    major: "Supply Chain, Operations Management",
     hometown: "",
     fun_fact: "",
     introduction:
@@ -325,14 +325,15 @@ export const officerData = [
     linkedIn: "https://www.linkedin.com/in/hayden-lo-044b902a7/",
   },
   {
-    committee: "",
-    name: "",
-    major: "",
-    hometown: "",
-    fun_fact: "",
-    introduction: "",
-    image: "",
-    linkedIn: "",
+    committee: "Event",
+    name: "Suryansh Panwar",
+    major: "Applied Statistics, Statistics with Math Emphasis, Economics",
+    hometown: "Delhi, India",
+    fun_fact: "I’m fluent in 5 languages and learning 3 more right now",
+    introduction:
+      "Hi, I’m a super senior at Purdue. 1. I enjoy sleeping, watching K-dramas, and listening to music. 2. I've switched my majors 4 times.3. ﻿﻿﻿I'm allergic/intolerant to most alcohols, except beers and wines. Thus, I'm a lightweight drinker, which saves me a lot of money. 4. I’m a thrill seeker with a creative touch. I love street racing and pushing my driving skills to its limits. 5. Alongside, I do fashion and automobile designing. 6. I also love to design tattoos and created unique pieces for myself and my friends.",
+    image: "https://i.postimg.cc/bNj24pYP/Suri.jpg",
+    linkedIn: "https://www.linkedin.com/in/suryanshpanwar",
   },
 ];
 
