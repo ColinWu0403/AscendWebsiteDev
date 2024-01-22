@@ -81,24 +81,55 @@ export const cardData = [
 
 export const upcomingData = [
   {
-    event_title: "Ascend Callouts",
-    description:
-      "Join us on Thursday Jan 11 and Jan 18 to learn all about Ascend, including our events and projects for the Spring semester",
-    date: "1/11 (Thur.)",
+    event_title: "Signature Event: Networking Week",
+    description: "The Networking Week hosted by Ascend Purdue is coming!!! A series of events will be held from Tuesday to Friday next week:",
+    date: "1/23 (Tues.) - 1/26 (Fri.)",
+    time: "6:30 PM - 7:30 PM",
+    location: "STEW 314 & RAWL 1071",
+    image: "https://media.licdn.com/dms/image/D5622AQFtEb3Id_Joaw/feedshare-shrink_1280/0/1705805035621?e=1708560000&v=beta&t=B2GRbvAS9L8nWekW7RU7JFhOfp24XXSIvGqw7xm_kKk",
+  },
+  {
+    event_title: "Career Fair Prep",
+    description:"Gary Fox, CPA from Crowe and another alumnus in business analytics are invited to attend and help us prepare for the upcoming Daniels School of Business Career Fair on February 1st!",
+    date: "1/23 (Tues.)",
+    time: "6:30 PM - 7:30 PM",
+    location: "STEW 314",
+    image: "https://media.licdn.com/dms/image/D5622AQE914wqUQVtwg/feedshare-shrink_1280/0/1705805034899?e=1708560000&v=beta&t=gvuyXorU7g9x-vQB-vKprOLXtaE-rumW0NzWLpoKiD0",
+  },
+  {
+    event_title: "Company Exploration",
+    description: "Great opportunity to network with recruiters outside of Career Fair! Andy Ngo from Ascend Indiana will be attending in person to present their company and engage with us at the end!",
+    date: "1/24 (Wed.)",
+    time: "6:30 PM - 7:30 PM",
+    location: "STEW 314",
+    image: "https://media.licdn.com/dms/image/D5622AQFnWvOiPmHb9w/feedshare-shrink_1280/0/1705805035104?e=1708560000&v=beta&t=mtHZaAg3RLc4IWGe8rGsXr-21l400FvBgcne501oA7Y",
+  },
+  {
+    event_title: "Alumni Night",
+    description: "Two distinguished alumni will attend the event, sharing their experiences from being Purdue students to their professional journeys. Every attendee will have an opportunity for one-on-one networking with the alumni at the end of the event🤩",
+    date: "1/25 (Thurs.)",
     time: "6:30 PM - 7:30 PM",
     location: "RAWL 1071",
-    image: "https://iili.io/JY9hOwF.png",
+    image: "https://media.licdn.com/dms/image/D5622AQGxXuInCzykCg/feedshare-shrink_1280/0/1705805035498?e=1708560000&v=beta&t=Ai6OEBJQQkXXawhNqtR861HgCT0RdAwmseJHuoLnc7g",
   },
-  // {
-  //   event_title: "November Events",
-  //   description: "Here are the November upcoming events!",
-  //   date: "Thur",
-  //   time: "6:30 PM - 7:30 PM",
-  //   location: "RAWL 1071",
-  //   image:
-  //     "https://static.wixstatic.com/media/22c249_cb748ea9dc0d4dc6bba55e7169d14fed~mv2.jpg/v1/fill/w_660,h_660,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/23_Nov.jpg",
-  // },
+  {
+    event_title: "Networking w/ Alumni",
+    description: "One of the most excellent Daniel’s School Alumni, Katarina Nikolovski, is coming back to share her professional experience with us! Let’s not miss this great opportunity to talk to her🙌",
+    date: "1/26 (Fri.)",
+    time: "6:30 PM - 7:30 PM",
+    location: "STEW 314",
+    image: "https://media.licdn.com/dms/image/D5622AQGNB92Neslx7g/feedshare-shrink_1280/0/1705805035431?e=1708560000&v=beta&t=7KOWTjxreE4i4DiSDj3i5QDwj2eoTlXmPxzUMVpAwGs",
+  },
 ];
+
+// {
+//   event_title: "",
+//   description: "",
+//   date: "",
+//   time: "",
+//   location: "",
+//   image: "",
+// },
 
 export const boardData = [
   {
@@ -336,7 +367,28 @@ export const officerData = [
     image: "https://i.postimg.cc/bNj24pYP/Suri.jpg",
     linkedIn: "https://www.linkedin.com/in/suryanshpanwar",
   },
+  {
+    committee: "Marketing",
+    name: "Caroline Curtis",
+    major: "Marketing, Management",
+    hometown: "Naperville, Illinois ",
+    fun_fact: "I love to listen to all kinds of music, thrift, and travel.",
+    introduction: "",
+    image: "https://i.postimg.cc/rmGC1K3j/ME-Caroline-Curtis.jpg",
+    linkedIn: "https://www.linkedin.com/in/caroline-curtis-126726246/",
+  },
 ];
+
+// {
+//   committee: "",
+//   name: "",
+//   major: "",
+//   hometown: "",
+//   fun_fact: "",
+//   introduction: "",
+//   image: "",
+//   linkedIn: "",
+// },
 
 export const eventData = [
   {

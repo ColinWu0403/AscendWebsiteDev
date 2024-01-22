@@ -28,7 +28,7 @@ const Hero = ({
       <img
         alt="logo image"
         src={AscendLogo}
-        className="mb-2 md:w-1/4 md:h-1/4 w-1/2 h-1/2 absolute md:top-[-70px] top-[-300px] md:left-1/2 transform md:-translate-x-1/2" // Center the image horizontally on smaller screens
+        className="justify-center items-center mb-2 md:w-1/4 md:h-1/4 w-1/2 h-1/2 absolute md:top-[-230px] top-[-300px] md:left-1/2 transform md:-translate-x-1/2" // Center the image horizontally on smaller screens
       />
       <motion.p
         initial="hidden"
