@@ -236,12 +236,11 @@ export const officerData = [
     committee: "Internal",
     name: "Jason Wu",
     major: "Marketing, Management",
-    hometown: "",
-    fun_fact: "",
-    introduction:
-      "Ascend enhanced my networking skills and also provided me with invaluable experience in working with a diversity of individuals.",
+    hometown: "Demotte, IN",
+    fun_fact: "I can probably bench you ",
+    introduction:"Ascend is great so give it a try! I enjoy powerlifting and watching One Piece. ",
     image: "https://i.postimg.cc/8CncRhHX/image1.jpg",
-    linkedIn: "",
+    linkedIn: "https://www.linkedin.com/in/jwu101/",
   },
   {
     committee: "External",
