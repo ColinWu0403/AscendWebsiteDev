@@ -4,13 +4,7 @@ import { AscendLogo } from "../assets";
 import { fadeIn, fadeInFromTopVariants } from "../utils/motion";
 import { CustomButton } from "../components";
 
-const Hero = ({
-  backgroundImage,
-  largeText,
-}: {
-  backgroundImage: string;
-  largeText: string;
-}) => {
+const Hero = ({ backgroundImage }: { backgroundImage: string }) => {
   const controls = useAnimation();
 
   useEffect(() => {
@@ -28,7 +22,7 @@ const Hero = ({
       <img
         alt="logo image"
         src={AscendLogo}
-        className="justify-center items-center mb-2 md:w-1/4 md:h-1/4 w-1/2 h-1/2 absolute md:top-[-230px] top-[-300px] md:left-1/2 transform md:-translate-x-1/2" // Center the image horizontally on smaller screens
+        className="justify-center items-center mb-2 md:w-1/4 md:h-1/4 w-1/2 h-1/2 absolute md:top-[-150px] top-[-550px] md:left-1/2 transform md:-translate-x-1/2" // Center the image horizontally on smaller screens
       />
       <motion.p
         initial="hidden"

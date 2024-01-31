@@ -9,10 +9,7 @@ const HomePage = () => {
       {/* Body */}
       <div className="min-h-screen flex flex-col">
         <div className="">
-          <Hero
-            backgroundImage="https://i.postimg.cc/zBCf99N6/Purdue-Wallpaper.png"
-            largeText="Ascend Purdue"
-          />
+          <Hero backgroundImage="https://i.postimg.cc/zBCf99N6/Purdue-Wallpaper.png" />
         </div>
         <About />
         <Upcoming />

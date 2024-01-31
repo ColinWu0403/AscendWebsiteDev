@@ -81,47 +81,35 @@ export const cardData = [
 
 export const upcomingData = [
   {
-    event_title: "Signature Event: Networking Week",
-    description: "The Networking Week hosted by Ascend Purdue is coming!!! A series of events will be held from Tuesday to Friday next week:",
-    date: "1/23 (Tues.) - 1/26 (Fri.)",
-    time: "6:30 PM - 7:30 PM",
-    location: "STEW 314 & RAWL 1071",
-    image: "https://media.licdn.com/dms/image/D5622AQFtEb3Id_Joaw/feedshare-shrink_1280/0/1705805035621?e=1708560000&v=beta&t=B2GRbvAS9L8nWekW7RU7JFhOfp24XXSIvGqw7xm_kKk",
-  },
-  {
-    event_title: "Career Fair Prep",
-    description:"Gary Fox, CPA from Crowe and another alumnus in business analytics are invited to attend and help us prepare for the upcoming Daniels School of Business Career Fair on February 1st!",
-    date: "1/23 (Tues.)",
-    time: "6:30 PM - 7:30 PM",
-    location: "STEW 314",
-    image: "https://media.licdn.com/dms/image/D5622AQE914wqUQVtwg/feedshare-shrink_1280/0/1705805034899?e=1708560000&v=beta&t=gvuyXorU7g9x-vQB-vKprOLXtaE-rumW0NzWLpoKiD0",
-  },
-  {
-    event_title: "Company Exploration",
-    description: "Great opportunity to network with recruiters outside of Career Fair! Andy Ngo from Ascend Indiana will be attending in person to present their company and engage with us at the end!",
-    date: "1/24 (Wed.)",
-    time: "6:30 PM - 7:30 PM",
-    location: "STEW 314",
-    image: "https://media.licdn.com/dms/image/D5622AQFnWvOiPmHb9w/feedshare-shrink_1280/0/1705805035104?e=1708560000&v=beta&t=mtHZaAg3RLc4IWGe8rGsXr-21l400FvBgcne501oA7Y",
-  },
-  {
-    event_title: "Alumni Night",
-    description: "Two distinguished alumni will attend the event, sharing their experiences from being Purdue students to their professional journeys. Every attendee will have an opportunity for one-on-one networking with the alumni at the end of the event🤩",
-    date: "1/25 (Thurs.)",
-    time: "6:30 PM - 7:30 PM",
+    event_title: "Movie Night",
+    description:
+      "🎬Let’s watch movie together!🍿We will be watching Spirited Away together with free snacks and drinks😍😋🍩 Come join our Thursday Movie Night🎥 to relax, have fun, and make friends.",
+    date: "Thur. Feb 1st",
+    time: "6:30 - 8:00 pm",
     location: "RAWL 1071",
-    image: "https://media.licdn.com/dms/image/D5622AQGxXuInCzykCg/feedshare-shrink_1280/0/1705805035498?e=1708560000&v=beta&t=Ai6OEBJQQkXXawhNqtR861HgCT0RdAwmseJHuoLnc7g",
+    image: "https://i.postimg.cc/2yqpFj54/movienight.jpg",
   },
   {
-    event_title: "Networking w/ Alumni",
-    description: "One of the most excellent Daniel’s School Alumni, Katarina Nikolovski, is coming back to share her professional experience with us! Let’s not miss this great opportunity to talk to her🙌",
-    date: "1/26 (Fri.)",
-    time: "6:30 PM - 7:30 PM",
-    location: "STEW 314",
-    image: "https://media.licdn.com/dms/image/D5622AQGNB92Neslx7g/feedshare-shrink_1280/0/1705805035431?e=1708560000&v=beta&t=7KOWTjxreE4i4DiSDj3i5QDwj2eoTlXmPxzUMVpAwGs",
+    event_title: "Ascend Sandbox Case Competition",
+    description:
+      "Get ready to ignite your entrepreneurial spirit!!🌟 This time, you will become an entrepreneur, work with your partners and come up with a brand new startup plans together!",
+    date: "1/24 - Registration Open, 1/31 - Sign up form closes, 2/2 - Registration Confirmation, 2/4 - Case Released, 2/24 - Pitch Day",
+    time: "TBD",
+    location: "Lily Hall",
+    image:
+      "https://media.licdn.com/dms/image/D5622AQHOIgyUeC0sjQ/feedshare-shrink_1280/0/1706560981209?e=1709769600&v=beta&t=Jz4QAiXcsF5e8fkv4Xaj73_5Nw1oPNC3iH6Jker5f-k",
+  },
+  {
+    event_title: "Sandbox Case Competition Pitch Day",
+    description:
+      "Final Pitch presentation for Ascend Purdue Sandbox Case Competition",
+    date: "Sat. Feb 24th",
+    time: "10 AM - 4 PM",
+    location: "Lily Hall",
+    image:
+      "https://media.licdn.com/dms/image/D5622AQGgM2tkqRla9A/feedshare-shrink_1280/0/1706560980713?e=1709769600&v=beta&t=2ZAXJFFmlJPImKW2QCF5Rm9-VPeG3f8u02JgbwvvBVA",
   },
 ];
-
 // {
 //   event_title: "",
 //   description: "",
@@ -238,7 +226,8 @@ export const officerData = [
     major: "Marketing, Management",
     hometown: "Demotte, IN",
     fun_fact: "I can probably bench you ",
-    introduction:"Ascend is great so give it a try! I enjoy powerlifting and watching One Piece. ",
+    introduction:
+      "Ascend is great so give it a try! I enjoy powerlifting and watching One Piece. ",
     image: "https://i.postimg.cc/8CncRhHX/image1.jpg",
     linkedIn: "https://www.linkedin.com/in/jwu101/",
   },
