@@ -365,6 +365,18 @@ export const officerData = [
     image: "https://i.postimg.cc/rmGC1K3j/ME-Caroline-Curtis.jpg",
     linkedIn: "https://www.linkedin.com/in/caroline-curtis-126726246/",
   },
+  {
+    committee: "Marketing",
+    name: "Olivia Koo",
+    major: "Marketing",
+    hometown: "Fremont, CA",
+    fun_fact: "I like to paint, crochet, and listen to music.",
+    introduction:
+      "I like Ascend because of how welcoming the people are and how dedicated the club is to providing members with great opportunities to develop their professional skills.",
+    image: "https://i.postimg.cc/gJLhX14S/Olivia-Koo.jpg",
+    linkedIn:
+      "https://www.linkedin.com/in/oliviakoo?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+  },
 ];
 
 // {
