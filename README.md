@@ -32,7 +32,7 @@ This will create a copy of the project in the folder on your computer
 
 ### Change and Test Code
 
-Now everything in the website's contents is in [src/components/index.ts](src/components/index.ts). Open the file in VS Code. You can see all the contents of the website that can be changed (Eg. board member info, event info, etc.)
+Now everything in the website's contents is in [src/constants/index.ts](src/constants/index.ts). Open the file in VS Code. You can see all the contents of the website that can be changed (Eg. board member info, event info, etc.)
 
 Now just edit the file and save it (`CTRL` + `S`). This won't be update to the actual website yet.
 
