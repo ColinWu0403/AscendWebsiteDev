@@ -56,6 +56,8 @@ This will run the code and a link (Typically [http://localhost:5173/](http://loc
 
 Now once you're satisfied with your changes, you can now upload (in git terms is is "push") your changes back to the GitHub repo and the website itself will be automatically updated.
 
+Also to close the preview localhost server do `CTRL` + `C` (This kills the server)
+
 ### Push Changes
 
 In VS Code, go to the top left side and click on the `Source Control` button. You can see all the files that you've changed here in relation to the website (git tracks it).
