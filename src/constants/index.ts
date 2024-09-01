@@ -171,8 +171,8 @@ export const boardData = [
   },
   {
     position: "VP of Internal",
-    name: "Shikha Adhikari",
-    major: "Animal Sciences",
+    name: "Jason Wu",
+    major: "Marketing, Management",
     hometown: "",
     fun_fact: "",
     introduction:
