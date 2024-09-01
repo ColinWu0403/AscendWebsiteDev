@@ -174,7 +174,7 @@ export const boardData = [
     name: "Jason Wu",
     major: "Marketing, Management",
     hometown: "",
-    fun_fact: "",
+    fun_fact: "s",
     introduction:
       "I like how we are a community that is diverse yet close-knit",
     image: "https://i.postimg.cc/y8sHkkFJ/image12.png",
