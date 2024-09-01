@@ -64,8 +64,36 @@ I'll give instructions on how to do this in both through VS Code and `Terminal` 
 
 **VS Code**
 
-You will need to stage your changes first. To do this click on the `+` sign on all files you want to change (this stages it).
+You will need to stage your changes first. To do this click on the `+` sign on all files you want to change (this stages it in the `Staged Changes` section).
 
 Then on top type a message (Just put what you changed, eg. "Updated Board Member Information"). Then click `Commit` to add the update message.
 
-Then just
+Then just click on `Sync Changes` and that will send the updated code back to GitHub and Vercel (my website hosting service) will automatically update the website in a few seconds.
+
+**Terminal using Git Commands**
+
+The steps are the same, you just have to type it out and run all commands
+
+You add any files you've changed to be staged (same as `Staged Changes`) by doing git add:
+
+```
+git add [filename]
+```
+
+or add all files that were changed
+
+```
+git add .
+```
+
+Then commit your changes (add what you updated) with git commit:
+
+```
+git commit -m "Your message here"
+```
+
+Then to `Sync Changes`, just do:
+
+```
+git push origin main
+```
