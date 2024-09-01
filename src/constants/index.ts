@@ -122,9 +122,9 @@ export const upcomingData = [
 export const boardData = [
   {
     position: "President",
-    name: "Meng-Hsuan (Étienne) Hsieh",
-    major: "Actuarial Science & Applied Statistics",
-    hometown: "Taipei, Taiwan",
+    name: "Shikha Adhikari",
+    major: "Animal Sciences",
+    hometown: "",
     fun_fact: "My birthday is a palindrome: 20/02/2002",
     introduction:
       "I aspire to forge a career as a consultant, driven by my passion for continuous self-improvement and an unwavering love for the learning journey. In my current role as the President of Ascend, I am resolutely committed to fostering growth not only within the organization’s esteemed membership but also in the club as a whole.",
