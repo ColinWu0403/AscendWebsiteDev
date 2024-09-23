@@ -173,8 +173,8 @@ export const boardData = [
     position: "VP of Internal",
     name: "Jason Wu",
     major: "Marketing, Management",
-    hometown: "",
-    fun_fact: "yes",
+    hometown: "Rensselaer, IN",
+    fun_fact: "I am learning to code a website",
     introduction:
       "I like how we are a community that is diverse yet close-knit",
     image: "https://i.postimg.cc/qqmyTCKt/Jason-Wu.jpg",
