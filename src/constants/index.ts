@@ -174,11 +174,11 @@ export const boardData = [
     name: "Jason Wu",
     major: "Marketing, Management",
     hometown: "",
-    fun_fact: "s",
+    fun_fact: "yes",
     introduction:
       "I like how we are a community that is diverse yet close-knit",
-    image: "https://i.postimg.cc/y8sHkkFJ/image12.png",
-    linkedIn: "https://www.linkedin.com/in/shikha-adhikari-3a633b7a/",
+    image: "https://i.postimg.cc/qqmyTCKt/Jason-Wu.jpg",
+    linkedIn: "https://www.linkedin.com/in/jason-wu01/",
   },
   {
     position: "VP of Finance",
