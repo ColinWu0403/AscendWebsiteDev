@@ -100,7 +100,7 @@ export const upcomingData = [
       "https://media.licdn.com/dms/image/D5622AQHOIgyUeC0sjQ/feedshare-shrink_1280/0/1706560981209?e=1709769600&v=beta&t=Jz4QAiXcsF5e8fkv4Xaj73_5Nw1oPNC3iH6Jker5f-k",
   },
   {
-    event_title: "Sandbox Case Competition Pitch Day",
+    event_title: "Sandbox Case Competition Pitch",
     description:
       "Final Pitch presentation for Ascend Purdue Sandbox Case Competition",
     date: "Sat. Feb 24th",
