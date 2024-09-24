@@ -124,13 +124,13 @@ export const boardData = [
     position: "President",
     name: "Shikha Adhikari",
     major: "Animal Sciences",
-    hometown: "",
-    fun_fact: "My birthday is a palindrome: 20/02/2002",
+    hometown: "Fremont, CA",
+    fun_fact:
+      "I have a bachelors in Indian Classical Dance",
     introduction:
-      "I aspire to forge a career as a consultant, driven by my passion for continuous self-improvement and an unwavering love for the learning journey. In my current role as the President of Ascend, I am resolutely committed to fostering growth not only within the organization’s esteemed membership but also in the club as a whole.",
-    image:
-      "https://static.wixstatic.com/media/3c4ffc_578176f6ab944c07a843930a87638ecc~mv2.jpg/v1/crop/x_0,y_12,w_320,h_266/fill/w_424,h_372,al_c,lg_1,q_80,enc_auto/etienne_edited.jpg",
-    linkedIn: "https://www.linkedin.com/in/menghsuanx/",
+      "I really enjoyed working with people from diverse cultures and backgrounds",
+    image: "https://i.postimg.cc/zvPHYngy/Shikha-Adhikari.jpg",
+    linkedIn: "www.linkedin.com/in/shikha-adhikari-3a633b7a",
   },
   {
     position: "VP of Events",
