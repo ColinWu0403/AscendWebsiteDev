@@ -134,40 +134,40 @@ export const boardData = [
   },
   {
     position: "VP of Events",
-    name: "Melanie Huang",
-    major: "Marketing; Business Analytics and Information Management (BAIM)",
+    name: "James Day",
+    major: "Finance ; Economics",
     hometown: "Taipei, Taiwan",
     fun_fact:
-      "I love experimenting with food and often enjoy unusual food combinations like avocado with sriracha or soy sauce, and banana with peanut butter.",
+      "I enjoy cooking.",
     introduction:
-      "I like how welcoming Ascend people are and how we are able to build strong bonds with each other",
-    image: "https://iili.io/J7DqBV9.jpg",
-    linkedIn: "https://www.linkedin.com/in/rou-chi-melanie-huang/",
+      "I like to create meaningful connections with the Ascend diverse community ",
+    image: "https://i.postimg.cc/43JyL4C3/IMG-8034-Original-James-Day.jpg",
+    linkedIn: "https://www.linkedin.com/in/tzu-chu-day/",
   },
   {
     position: "VP of External",
-    name: "Tony Zhang",
-    major: "Finance",
-    hometown: "Shanghai, China",
+    name: "Luke Hong",
+    major: "Marketing",
+    hometown: "Fullerton, California",
     fun_fact:
-      "Back at home, I was so obsessed with dragon roll I eat the same dish for 6 years straight almost every Friday",
+      "I love socializing with other people!",
     introduction:
-      "I am interested in business fields such as quant and risk management. At my down time I like to breakdance and play switch",
+      "At my down time I like to breakdance and play switch",
     image:
-      "https://media.licdn.com/dms/image/D4D03AQGZQ4P5KKtdGw/profile-displayphoto-shrink_800_800/0/1695234430675?e=1710374400&v=beta&t=X7cQ2Nf0pSnaNh2BeWxzdypDnB2G9GdReZNFu5D8dMQ",
-    linkedIn: "https://www.linkedin.com/in/qingyang-zhang-4b4a83172/",
+      "https://media.licdn.com/dms/image/D5603AQGSj5p82YhN2w/profile-displayphoto-shrink_400_400/0/1694527338394?e=1710374400&v=beta&t=OfSstsz-eb6aeBIV9unHcd5djxcAwoj5xe_WjoQAjdA",
+    linkedIn: "https://www.linkedin.com/in/luke-hong-60b645289/",
   },
   {
-    position: "VP of Marketing, VP of Signature Events",
-    name: "Deirdre Lin",
-    major: "Marketing; Business Analytics and Information Management (BAIM)",
-    hometown: "Keelung, Taiwan",
-    fun_fact: "I had once cycled around Taiwan in 13 days.",
+    position: "VP of Marketing",
+    name: "Olivia Koo",
+    major: "Marketing",
+    hometown: "Fremont, CA",
+    fun_fact: "I like to paint, crochet, and listen to music.",
     introduction:
-      "Hi! I’m Deirdre and I’m a junior at Purdue. I enjoy developing business professional skills and building connections with others. I also love ice-skating, playing piano, and watching Netflix. HMU if you wanna hang out!!",
+      "I like Ascend because of how welcoming the people are and how dedicated the club is to providing members with great opportunities to develop their professional skills.",
     image:
-      "https://static.wixstatic.com/media/3c4ffc_fe9eca8e5ecc4e9baa545c8b621a46bc~mv2.jpg/v1/crop/x_59,y_0,w_482,h_400/fill/w_547,h_480,al_c,lg_1,q_80,enc_auto/Deirdre.jpg",
-    linkedIn: "https://www.linkedin.com/in/dyjlin/",
+      "https://i.postimg.cc/gJLhX14S/Olivia-Koo.jpg",
+    linkedIn: "www.linkedin.com/in/oliviakoo",
   },
   {
     position: "VP of Internal",
@@ -181,135 +181,56 @@ export const boardData = [
     linkedIn: "https://www.linkedin.com/in/jason-wu01/",
   },
   {
+    position: "VP of Signature Events",
+    name: "Avery Lee",
+    major: "Supply Chain and Operations Management",
+    hometown: "Dublin, CA",
+    fun_fact: "I did gymnastics for 14 years.",
+    introduction:
+      "I joined Ascend because I am passionate about diversity and business, and Ascend was the perfect place to do both.",
+    image: "https://i.postimg.cc/cJ1TgN9M/image2.jpg",
+    linkedIn: "https://www.linkedin.com/in/averyhlee27/",
+  },
+  {
     position: "VP of Finance",
-    name: "Maryam Shakil",
-    major: "Economics; Data Analytics",
-    hometown: "Brownsburg, IN",
+    name: "Ethan Wong",
+    major: "Fiance",
+    hometown: "Brunei",
     fun_fact:
-      "I have a huge sweet tooth and love to read and watch dramas in my free time!",
-    introduction: "I like how welcoming and friendly everyone is in Ascend ",
-    image: "https://i.postimg.cc/1zD5J2TM/IMG-6315-Maryam.jpg",
+      "I love to snowboard.",
+    introduction: "Ascend is a great place to develop myself socially and professionally. ",
+    image: "https://i.postimg.cc/W3mPQgML/Ethan-Wong.jpg",
     linkedIn:
-      "https://www.linkedin.com/in/maryam-shakil?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BmOGliGwXTFyeHBxJFGYq8g%3D%3D",
+      "www.linkedin.com/in/ethanwongg",
   },
 ];
 
 export const officerData = [
-  {
-    committee: "External",
-    name: "Colin Wu",
-    major: "Computer Science",
-    hometown: "Belize City, Belize",
-    fun_fact: "I made this website lol",
-    introduction:
-      "Hello everyone! I'm Colin Wu. I am currently a Sophomore in Computer Science. I enjoy being part of Purdue Ascend as it is a great community of many different people from different majors and backgrounds. I also enjoy the professional development and networking opportunities that Purdue Ascend provides!",
-    image:
-      "https://media.licdn.com/dms/image/D4E03AQHPHsQoljwuxA/profile-displayphoto-shrink_400_400/0/1704947266807?e=1710374400&v=beta&t=5QrSYCbP7Il6QDG_UoLq-7gyhwUdW1z7tkdbAn6mTnY",
-    linkedIn: "https://www.linkedin.com/in/colinwu0403/",
-  },
+
   {
     committee: "Internal",
-    name: "Amanda Huang",
-    major: "Computer & Information Technology",
-    hometown: "Taiwan",
+    name: "Sean Wu",
+    major: "Business Analytics and Information Management (BAIM)",
+    hometown: "Taipei, Taiwan",
     fun_fact:
-      "I've been playing badminton for over 8 years. If you share the love for this sport, let me know, and we can play together!",
+      "I like kpop.",
     introduction:
-      "I enjoy Ascend has a balance between enhance business professional skill and networking/social events",
+      "Ascend helped me develop my professional skills and experience taking more roles ",
     image:
-      "https://media.licdn.com/dms/image/C5603AQHa6I-difLdSg/profile-displayphoto-shrink_400_400/0/1631495891866?e=1710374400&v=beta&t=7TU_c_VkvAIdt7IMactQCMTQUe4bhGH6x9e8qfnSBbY",
-    linkedIn: "https://www.linkedin.com/in/amandahuang2025/",
+      "https://i.postimg.cc/SxwFRDdb/D0-CAF1-CE-3111-4478-86-A7-07-F9-DC79-BBF7-Sean-Wu.avif",
+    linkedIn: "www.linkedin.com/in/sean-wu0120",
   },
   {
-    committee: "Internal",
-    name: "Jason Wu",
-    major: "Marketing, Management",
-    hometown: "Demotte, IN",
-    fun_fact: "I can probably bench you ",
-    introduction:
-      "Ascend is great so give it a try! I enjoy powerlifting and watching One Piece. ",
-    image: "https://i.postimg.cc/8CncRhHX/image1.jpg",
-    linkedIn: "https://www.linkedin.com/in/jwu101/",
-  },
-  {
-    committee: "External",
-    name: "Anurag Koripalli",
-    major: "Finance, BAIM, Applied Statistics",
-    hometown: "Bangalore",
-    fun_fact: "Love watching the UFC in my free time",
-    introduction:
-      "I enjoy the various different tasks and activities I am part of at Ascend, whether it be a resume workshop or maintaining alumni relations.",
-    image:
-      "https://media.licdn.com/dms/image/D5603AQEOzJIoZXdb3g/profile-displayphoto-shrink_400_400/0/1692177264807?e=1710374400&v=beta&t=CZA0iSZiUvHyVAtf3pzbpr1t7XvEIRQc61huDZ9bUtw",
-    linkedIn: "https://www.linkedin.com/in/anurag-koripalli/",
-  },
-  {
-    committee: "Internal",
-    name: "Nicole Kim",
-    major: "Data Analytics, Technologies and Application",
-    hometown: "Seoul, Korea",
-    fun_fact: "I enjoy bouldering!",
-    introduction:
-      "I enjoy networking with people through our comminuty and the combination of diversity",
-    image:
-      "https://media.licdn.com/dms/image/D5603AQFiiaPsXDEHkw/profile-displayphoto-shrink_800_800/0/1688726458402?e=1710374400&v=beta&t=isQ_yBvfsHqhNUfPj76fl6ibiSxNBOfpVZK6IGpDNCI",
-    linkedIn: "https://www.linkedin.com/in/nayoungkimpurdue/",
-  },
-  {
-    committee: "Finance",
-    name: "Soma Sato",
-    major: "Economics",
-    hometown: "",
-    fun_fact: "",
-    introduction:
-      "I like the friendliness of the community and their passion for pursuing their experience and knowledge.",
-    image:
-      "https://media.licdn.com/dms/image/D5603AQEXTpl1Cu1OGQ/profile-displayphoto-shrink_400_400/0/1685208765696?e=1710374400&v=beta&t=JoVkaruhtZ-DXKjqYZtvnPnTRjqSt9qu-fHXjcKORdA",
-    linkedIn: "https://www.linkedin.com/in/somajacksato0713/",
-  },
-  {
-    committee: "External",
-    name: "Luke Hong",
+    committee: "Signature Events",
+    name: "Lathika Kolli",
     major: "Marketing",
-    hometown: "Fullerton, California",
-    fun_fact: "I love socializing with other people!",
+    hometown: "Seattle, WA",
+    fun_fact: "I have a black belt in taekwondo.",
     introduction:
-      "Hello, my name is Luke. I am excited to work with all of you.",
+      "I joined Ascend because it was a space for me to meet other like-minded individuals and network with professionals who understand both business and cultural identities.",
     image:
-      "https://media.licdn.com/dms/image/D5603AQGSj5p82YhN2w/profile-displayphoto-shrink_400_400/0/1694527338394?e=1710374400&v=beta&t=OfSstsz-eb6aeBIV9unHcd5djxcAwoj5xe_WjoQAjdA",
-    linkedIn: "https://www.linkedin.com/in/luke-hong-60b645289/",
-  },
-  {
-    committee: "Event",
-    name: "Hannah Yen",
-    major: "Public Health",
-    hometown: "Taiwan",
-    fun_fact: "I like to play sports",
-    introduction: "People are nice and the events are funny and meaningful.",
-    image: "https://i.postimg.cc/3NtcNx7G/image9.jpg",
-    linkedIn: "www.linkedin.com/in/hannah-yen-38a208237",
-  },
-  {
-    committee: "Finance",
-    name: "Kevin Wang",
-    major: "Applied Statistics, Economics",
-    hometown: "",
-    fun_fact: "",
-    introduction:
-      "Everyone in Ascend is inclusive and we all try our best to get to know more of each and every individual member.",
-    image: "https://i.postimg.cc/nzH2mf3G/image11.jpg",
-    linkedIn: "",
-  },
-  {
-    committee: "Finance",
-    name: "Ethan Wong",
-    major: "Finance",
-    hometown: "Brunei",
-    fun_fact: "I love snowboarding and basketball ",
-    introduction:
-      "I like the inclusivity of Ascend and its mission to help students seek opportunities.",
-    image: "https://i.postimg.cc/pT88QsYt/Ethan-Wong.jpg",
-    linkedIn: "www.linkedin.com/in/ethanwongg",
+      "https://i.postimg.cc/4ds0HMhq/DSCF7256-Enhanced-NR-Lathika-Kolli.jpg",
+    linkedIn: "www.linkedin.com/in/lathika-kolli",
   },
   {
     committee: "Signature Event",
@@ -323,60 +244,50 @@ export const officerData = [
     linkedIn: "",
   },
   {
-    committee: "Signature Event",
-    name: "Avery Lee",
-    major: "Supply Chain, Operations Management",
+    committee: "Finance",
+    name: "Christy Huang",
+    major: "Business Analytics and Information Management (BAIM)",
+    hometown: "Lafayette, IN",
+    fun_fact: "I can speak 4 languages.",
+    introduction:
+      "I joined Ascend because I like the inclusive environment that Ascend creates.",
+    image:
+      "https://i.postimg.cc/7LWVwWnS/Linked-In-Photo-Christy-Huang.jpg",
+    linkedIn: "linkedin.com/in/christy-huang",
+  },
+  {
+    committee: "Finance",
+    name: "Kevin Wang",
+    major: "Applied Statistics, Economics",
     hometown: "",
     fun_fact: "",
     introduction:
-      "I like that Ascend is a growing organization that focuses on creating events that benefit its members in many different ways.",
-    image: "https://i.postimg.cc/cJ1TgN9M/image2.jpg",
+      "Everyone in Ascend is inclusive and we all try our best to get to know more of each and every individual member.",
+    image: "https://i.postimg.cc/nzH2mf3G/image11.jpg",
     linkedIn: "",
   },
   {
     committee: "Marketing",
+    name: "Cailey Jen",
+    major: "Computer Science",
+    hometown: "Taipei, Taiwan",
+    fun_fact: "I do my own nails and I love boba!",
+    introduction: "I wanted to meet new people and make friends. Everyone is super welcoming and friendly.",
+    image: "https://i.postimg.cc/P5MVsy7M/DSC-5788-Cailey-Jen.jpg",
+    linkedIn: "https://www.linkedin.com/in/caileyjen/",
+  },
+  {
+    committee: "Marketing",
     name: "Hayden Lo",
-    major: "General Management",
+    major: "Business Analytics and Information Management (BAIM)",
     hometown: "Livingston, NJ",
     fun_fact: "I like playing basketball and I like running hurdles.",
     introduction:
       "I like Ascend because it allows me to meet new people and learn more about business as a whole.",
-    image: "https://i.postimg.cc/qRzrWFD9/Hayden-Lo.jpg",
-    linkedIn: "https://www.linkedin.com/in/hayden-lo-044b902a7/",
+    image: "https://i.postimg.cc/6pZbjwrF/Headshot-Hayden-Hayden-Lo.jpg",
+    linkedIn: "https://www.linkedin.com/in/hayden-lo/",
   },
-  {
-    committee: "Event",
-    name: "Suryansh Panwar",
-    major: "Applied Statistics, Statistics with Math Emphasis, Economics",
-    hometown: "Delhi, India",
-    fun_fact: "I’m fluent in 5 languages and learning 3 more right now",
-    introduction:
-      "Hi, I’m a super senior at Purdue. 1. I enjoy sleeping, watching K-dramas, and listening to music. 2. I've switched my majors 4 times.3. ﻿﻿﻿I'm allergic/intolerant to most alcohols, except beers and wines. Thus, I'm a lightweight drinker, which saves me a lot of money. 4. I’m a thrill seeker with a creative touch. I love street racing and pushing my driving skills to its limits. 5. Alongside, I do fashion and automobile designing. 6. I also love to design tattoos and created unique pieces for myself and my friends.",
-    image: "https://i.postimg.cc/bNj24pYP/Suri.jpg",
-    linkedIn: "https://www.linkedin.com/in/suryanshpanwar",
-  },
-  {
-    committee: "Marketing",
-    name: "Caroline Curtis",
-    major: "Marketing, Management",
-    hometown: "Naperville, Illinois ",
-    fun_fact: "I love to listen to all kinds of music, thrift, and travel.",
-    introduction: "",
-    image: "https://i.postimg.cc/rmGC1K3j/ME-Caroline-Curtis.jpg",
-    linkedIn: "https://www.linkedin.com/in/caroline-curtis-126726246/",
-  },
-  {
-    committee: "Marketing",
-    name: "Olivia Koo",
-    major: "Marketing",
-    hometown: "Fremont, CA",
-    fun_fact: "I like to paint, crochet, and listen to music.",
-    introduction:
-      "I like Ascend because of how welcoming the people are and how dedicated the club is to providing members with great opportunities to develop their professional skills.",
-    image: "https://i.postimg.cc/gJLhX14S/Olivia-Koo.jpg",
-    linkedIn:
-      "https://www.linkedin.com/in/oliviakoo?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-  },
+
 ];
 
 // {
